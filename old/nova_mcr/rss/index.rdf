@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="./style.xsl"?>
+
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xml:lang="ja">
+
+  <channel rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/rss/index.rdf">
+    <title>トーキョーＮ◎ＶＡ チーム枕連用特別室</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/</link>
+    <dc:date>2013-11-08T01:51:28+09:00</dc:date>
+    <description>チーム枕連 内部用Ｎ◎ＶＡサイト</description>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html#he20131108"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html#he20131108"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html#he20131108"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/#he20131108"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html#he20131015"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html#he20130921"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html#he20130921"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html#he20130921"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/#he20130921"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html#he20130915"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html#he20130915"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html#he20130915"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/#he20130915"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html#he20120407"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html#he20120407"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html#he20131108">
+    <title>2013/11/08 「参加キャスト検討表」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html</link>
+    <dc:date>2013-11-08</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html#he20131108">
+    <title>2013/11/08 「プレイ済みアクト」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html</link>
+    <dc:date>2013-11-08</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html#he20131108">
+    <title>2013/11/08 「パーソナリティーズ」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html</link>
+    <dc:date>2013-11-08</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/#he20131108">
+    <title>2013/11/08 トップページを更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/</link>
+    <dc:date>2013-11-08</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html#he20131015">
+    <title>2013/10/15 「参加キャスト検討表」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html</link>
+    <dc:date>2013-10-15</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html#he20130921">
+    <title>2013/09/21 「参加キャスト＆ＲＬ検討表（総合）」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html</link>
+    <dc:date>2013-09-21</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html#he20130921">
+    <title>2013/09/21 「プレイ済みアクト」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html</link>
+    <dc:date>2013-09-21</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html#he20130921">
+    <title>2013/09/21 「パーソナリティーズ」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html</link>
+    <dc:date>2013-09-21</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/#he20130921">
+    <title>2013/09/21 トップページを更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/</link>
+    <dc:date>2013-09-21</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html#he20130915">
+    <title>2013/09/15 「参加キャスト＆ＲＬ検討表（総合）」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html</link>
+    <dc:date>2013-09-15</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html#he20130915">
+    <title>2013/09/15 「プレイ済みアクト」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/playact.html</link>
+    <dc:date>2013-09-15</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html#he20130915">
+    <title>2013/09/15 「パーソナリティーズ」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/person.html</link>
+    <dc:date>2013-09-15</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/#he20130915">
+    <title>2013/09/15 トップページを更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/</link>
+    <dc:date>2013-09-15</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html#he20120407">
+    <title>2012/04/07 「参加キャスト＆ＲＬ検討表（総合）」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_rl.html</link>
+    <dc:date>2012-04-07</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html#he20120407">
+    <title>2012/04/07 「参加キャスト検討表」を更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/nova_mcr/cast_select.html</link>
+    <dc:date>2012-04-07</dc:date>
+    <description></description>
+  </item>
+
+</rdf:RDF>

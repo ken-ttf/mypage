@@ -1,0 +1,123 @@
+@charset "Shift_JIS";
+
+table {
+	empty-cells: hide;
+	border: medium solid #999;
+}
+
+caption {
+	font-weight: bold;
+}
+
+thead, tfoot {
+	color: #FFF;
+	background-color: #096;
+	border: thin solid #FFF;
+}
+
+tbody {
+	color: #000;
+	border: thin solid #FFF;
+}
+
+th {
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+}
+
+th, td {
+	padding: 1px 2px;
+}
+
+thead td {
+	white-space: nowrap;
+}
+
+tbody td {
+	text-align: right;
+}
+
+tbody.month {
+	background-color: #FFF;
+}
+
+tbody.month th,
+tbody.month td {
+	border: 1px solid #999;
+	padding: 0;
+}
+
+tbody#April {
+	background-color: #CC9;
+}
+
+tbody#April th,
+tbody#April td {
+	border: 1px solid #CC9;
+	padding: 0;
+}
+
+tbody#May {
+	background-color: #9C9;
+}
+
+tbody#May th,
+tbody#May td {
+	border: 1px solid #9C9;
+	padding: 0;
+}
+
+tbody#June {
+	background-color: #9CC;
+}
+
+tbody#June th,
+tbody#June td {
+	border: 1px solid #9CC;
+	padding: 0;
+}
+
+tbody#July {
+	background-color: #DAD;
+}
+
+tbody#July th,
+tbody#July td {
+	border: 1px solid #DAD;
+	padding: 0;
+}
+
+tbody#August {
+	background-color: #F99;
+}
+
+tbody#August th,
+tbody#August td {
+	border: 1px solid #F99;
+	padding: 0;
+}
+
+tbody#September {
+	background-color: #FCC;
+}
+
+tbody#September th,
+tbody#September td {
+	border: 1px solid #FCC;
+	padding: 0;
+}
+
+tbody#October {
+	background-color: #CCF;
+}
+
+tbody#October th,
+tbody#October td {
+	border: 1px solid #CCF;
+	padding: 0;
+}
+
+.red {
+	color: #F00;
+}

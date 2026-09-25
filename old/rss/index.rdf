@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="./style.xsl"?>
+
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xml:lang="ja">
+
+  <channel rdf:about="http://homepage1.nifty.com/ken-hhh/rss/index.rdf">
+    <title>ゴッド・ページ 上下ミラクル城</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-12-08T00:41:57+09:00</dc:date>
+    <description>トーキョーＮ◎ＶＡ中心のTRPGサイト</description>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20141208"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20141110"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20141001"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140912"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140805"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140712"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140702"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140615"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140506"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140203"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20140102"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20131202"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20131108"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20131002"/>
+        <rdf:li rdf:resource="http://homepage1.nifty.com/ken-hhh/#he20130912"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20141208">
+    <title>2014/12/08 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-12-08</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20141110">
+    <title>2014/11/10 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-11-10</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20141001">
+    <title>2014/10/01 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-10-01</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140912">
+    <title>2014/09/12 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-09-12</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140805">
+    <title>2014/08/05 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-08-05</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140712">
+    <title>2014/07/12 「Special Link」を更新。『Fate/kaleid liner　イリヤとクロのプリズマ☆ナイト　ツヴァイ！』を追加。</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-07-12</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140702">
+    <title>2014/07/02 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-07-02</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140615">
+    <title>2014/06/15 「2014年夏コミ当落の報告」を掲載</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-06-15</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140506">
+    <title>2014/05/06 「ひさびさの今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-05-06</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140203">
+    <title>2014/02/03 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-02-03</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20140102">
+    <title>2014/01/02 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2014-01-02</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20131202">
+    <title>2013/12/02 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2013-12-02</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20131108">
+    <title>2013/11/08 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2013-11-08</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20131002">
+    <title>2013/10/02 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2013-10-02</dc:date>
+    <description></description>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/ken-hhh/#he20130912">
+    <title>2013/09/12 「今月のひとこと」更新</title>
+    <link>http://homepage1.nifty.com/ken-hhh/</link>
+    <dc:date>2013-09-12</dc:date>
+    <description></description>
+  </item>
+
+</rdf:RDF>

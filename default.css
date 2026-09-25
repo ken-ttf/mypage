@@ -1,0 +1,591 @@
+@charset "UTF-8"
+
+/* ------------------------------------------------------------------
+	Main Section
+   ------------------------------------------------------------------ */
+
+body * {
+	margin:           0;
+	padding:          0;
+	font-weight:      inherit;
+	font-style:       inherit;
+	text-decoration:  inherit;
+	font-family:      "MS UI Gothic", "ＭＳ Ｐゴシック", "Osaka", "sans-serif";
+}
+
+body {
+	margin:           0;
+	padding:          0 1em;
+	color:            #000;
+	background-color: #FFF;
+	font-weight:      normal;
+	font-style:       normal;
+	text-decoration:  none;
+	line-height:      130%;
+}
+
+/* ---------- Heading ---------- */
+h1 {
+	margin:           0 0 0.5em;
+	padding:          0.5em;
+	color:            inherit;
+	background-color: inherit;
+	font-size:        140%;
+	line-height:      100%;
+	text-align:       left;
+	font-weight:      bold;
+}
+
+h2 {
+	margin:           1.5em -0.5em 0.5em;
+	padding:          0.4em 0.9em;
+	color:            #FFF;
+	background-color: #666;
+	border:           0.2em solid #000;
+	font-size:        120%;
+	font-weight:      bold;
+}
+
+h3 {
+	margin:           1.5em 0 0.5em 0em;
+	padding:          0.5em 0.7em;
+	color:            #000;
+	background-color: #CCC;
+	border-left:      0.5em solid #000;
+	font-size:        100%;
+	font-weight:      bold;
+}
+
+h4 {
+	margin:           1.3em 0 0 0.25em;
+	padding:          0.2em 1.2em;
+	color:            #FFF;
+	background-color: #999;
+	font-size:        100%;
+/*	font-weight:      normal;	*/
+	font-weight:      bold;
+}
+
+h4 a:link {
+	color:            #FFF;
+}
+
+h4 a:visited {
+	color:            #FF9;
+}
+
+h5 {
+	margin:           1em 0 1em -0.5em;
+	padding:          0.1em 2em;
+	color:            #000000;
+	background-color: #FCC;
+	font-size:        100%;
+	font-weight:      normal;
+}
+
+h6 {
+	margin:           1.5em 2em 1em 2em;
+	padding:          0;
+	color:            #009;
+	background-color: Transparent;
+	font-size:        100%;
+	font-weight:      normal;
+}
+
+h6:before {
+	color:            inherit;
+	background-color: inherit;
+	content:          "■";
+	
+}
+
+/* ---------- Text ---------- */
+p {
+	margin: 0.3em 0;
+	padding: 0;
+}
+
+blockquote {
+	margin:           1em;
+	padding:          0.2em 1em 0.2em;
+	color:            #000;
+	background-color: #FFC;
+	border:           medium outset #C99;
+}
+
+blockquote h4 {
+	margin-top: 0.5em;
+}
+
+q {
+	margin:           0 0.2em;
+	padding:          0;
+	color:            #C66;
+	background-color: Transparent;
+	quotes:           "“" "”" "「" "」";
+}
+
+q:before {
+	content: open-quote;
+}
+
+q:after {
+	content: close-quote;
+}
+
+cite {
+	margin:           0 0.2em;
+	padding:          0;
+	color:            #33C;
+	background-color: Transparent;
+	font-style:       normal;
+}
+
+em {
+	color:            #093;
+	background-color: Transparent;
+	font-style:       normal;
+	font-weight:      normal;
+}
+
+strong {
+	color:            #F00;
+	background-color: Transparent;
+	font-style:       normal;
+	font-weight:      bold;
+}
+
+pre {
+	margin:           1em 0;
+	padding:          1em;
+	color:            #000;
+	background-color: #CFF;
+	border-color:     #C66;
+	border-width:     thin;
+	border-style:     dashed;
+	line-height:      100%;
+}
+
+address {
+	font-style: italic;
+	margin:     0.5em 0;
+	padding:    0;
+}
+
+dfn {
+	font-style:   normal;
+	border-color: #966;
+	border-width: thin;
+	border-style: none none dashed none;
+}
+
+abbr {
+	font-style:   normal;
+	border-color: #966;
+	border-width: thin;
+	border-style: none none dotted none;
+	cursor:       help;
+}
+
+acronym {
+	font-style:   normal;
+	border-color: #966;
+	border-width: thin;
+	border-style: none none dotted none;
+	cursor:       help;
+}
+
+code {
+	margin:           0 0.2em;
+	padding:          0;
+	color:            #333;
+	background-color: #CCC;
+	font-family:      monospace;
+	font-size:        90%;
+}
+
+samp {
+	margin:           0 0.2em;
+	padding:          0;
+	color:            #333;
+	background-color: #CCC;
+	font-family:      monospace;
+	font-size:        90%;
+}
+
+kbd {
+	margin:           0 0.2em;
+	padding:          0;
+	color:            #333;
+	background-color: #CCC;
+	font-family:      monospace;
+	font-size:        90%;
+}
+
+var {
+	margin:           0 0.2em;
+	padding:          0;
+	color:            #666;
+	background-color: Transparent;
+	font-family:      monospace;
+	font-size:        100%;
+	font-style:       italic;
+	font-weight:      normal;
+}
+
+sup {
+	margin:           0 0.1em;
+	vertical-align:   super;
+}
+
+sub {
+	margin:           0 0.1em;
+	vertical-align:   sub;
+}
+
+ins {
+	text-decoration:  underline;
+}
+
+del {
+	color:            #666;
+	background-color: Transparent;
+	text-decoration:  line-through;
+}
+
+rt, rp {
+	color:            #333;
+	background-color: Transparent;
+	font-size:        60%;
+}
+
+/* ---------- List ---------- */
+ul, ol {
+	margin:  1em 0;
+	padding: 0;
+}
+
+li ul, li ol {
+	margin:  0;
+	padding: 0;
+}
+
+li {
+	margin:  0.1em 0 0.1em 2.5em;
+	padding: 0;
+}
+
+dl {
+	margin:  1em 0;
+	padding: 0;
+}
+
+dt {
+	color:            #333;
+	background-color: Transparent;
+	font-weight:      bold;
+	margin:           0.5em 0 0.7em 0;
+	padding:          0 0 0 0.3em;
+	border-bottom:    dotted thin #666;
+}
+
+dd {
+	margin: -0.3em 0 0.7em 2.3em;
+}
+
+
+/* ---------- Image and Object ---------- */
+img {
+	border: none;
+}
+
+/* ---------- Horizontal Rule ---------- */
+hr {
+	display: none;
+}
+
+/* ---------- Anchor ---------- */
+a:link {
+	color: #00F;
+	background-color: Transparent;
+	text-decoration:  underline;
+}
+
+a:visited {
+	color: #909;
+	background-color: Transparent;
+	text-decoration:  underline;
+}
+
+a:hover {
+	color: #F00;
+	background-color: Transparent;
+	text-decoration:  underline;
+}
+
+a:active {
+	color: #999;
+	background-color: Transparent;
+	text-decoration:  underline;
+}
+
+/* ---------- Table ---------- */
+table {
+	border: medium solid #666;
+	margin: 0.7em auto 0.7em 1em;
+	color: #000;
+	border-spacing: 2px;
+}
+
+caption {
+	font-weight: bold;
+	margin: 0.2em;
+}
+
+thead {
+	background-color: #999;
+}
+
+tbody {
+	background-color: #CCC;
+}
+
+th {
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0.2em 0.5em;
+	border: 1px solid #666;
+}
+
+thead th {
+	color: #FFF;
+}
+
+td {
+	padding: 0.1em 0.2em;
+}
+
+td ul, td ol {
+	margin:  0.2em 0;
+	padding: 0;
+}
+
+/* ---------- Form ---------- */
+fieldset {
+	padding: 0.5em 1em;
+}
+
+input {
+	line-height: 100%;
+}
+
+
+/* ------------------------------------------------------------------
+	Sub Section
+   ------------------------------------------------------------------ */
+
+/* ---------- Header Footer ---------- */
+div.head, div.foot {
+	font-size:   90%;
+	line-height: 120%;
+}
+
+div.head {
+	color:      #FFF;
+	background: #000;
+	margin:     0 -1em 1.5em;
+	padding:    0 0.5em;
+}
+
+div.foot {
+	color:         #000;
+	background:    transparent;
+	margin:        2em -0.5em 0;
+	padding:       0.5em;
+	border-top:    thin solid #666;
+/*	border-bottom: thin solid #666;	*/
+}
+
+div.head ul {
+	margin:     0;
+	text-align: right;
+}
+
+div.head li {
+	margin:           0 0.2em 0 0;
+	padding:          0;
+	background-color: Transparent;
+	display:          inline;
+}
+
+div.head li:before {
+	margin:           0 0.5em 0 0;
+	padding:          0;
+	background-color: Transparent;
+	display:          inline;
+	content:          "/";
+}
+
+div.head a {
+	color:            #FFF;
+	background-color: Transparent;
+	text-decoration:  underline;
+}
+
+div.head a:visited {
+	color:            #CCF;
+	background-color: Transparent;
+	text-decoration:  underline;
+}
+
+
+/* ---------- List ---------- */
+ul.dl_in dl,
+ul.dl_in dt,
+ul.dl_in dd {
+	padding: 0;
+	display: inline;
+	border:  none;
+}
+
+ul.dl_in dt { white-space: nowrap; margin: 0; }
+ul.dl_in dd { white-space: nowrap; margin: 0 0 0 0.3em; }
+
+ol.dl_in dl,
+ol.dl_in dt,
+ol.dl_in dd {
+	padding: 0;
+	display: inline;
+	border:  none;
+}
+
+ol.dl_in dt { white-space: nowrap; margin: 0; }
+ol.dl_in dd { white-space: nowrap; margin: 0 0 0 0.3em; }
+
+
+/* ---------- Div ---------- */
+div.navi {
+/*	font-size: smaller;	*/
+	line-height: 110%;
+	border: medium inset #99C;
+	background-color: transparent;
+	margin: 1.5em 0;
+	padding: 0 0.3em 0.2em;
+}
+
+div.navi h2 {
+	border: none;
+	background-color: transparent;
+	margin: 0.7em 0 0em 0.2em;
+	padding: 0;
+/*
+	font-style: italic;
+*/
+	color: #666;
+	font-size: 90%;
+}
+
+div.navi dt {
+	margin-left:  1em;
+	margin-right: 1em;
+}
+
+div.navi dd {
+	margin-bottom: 0.4em;
+}
+
+div.navi ul.dl_in dt {
+	margin-left:  0;
+	margin-right: 0;
+}
+
+div.navi p {
+	margin-top:    0.5em;
+	margin-bottom: 0.5em;
+	margin-left:   0.5em;
+	margin-right:  0.5em;
+	line-height:   130%;
+}
+
+div.navi table {
+	margin:    1em;
+	padding:   0em;
+	border:    thin solid #999;
+	font-size: 95%;
+}
+
+div.ep {
+	margin:           1em 0.5em 1.3em;
+	padding:          0.3em 1em;
+	color:            #000;
+	background-color: #CFF;
+	border:           medium outset #99C;
+}
+
+
+/* ---------- Etc ---------- */
+.lastupdate {
+	color:            #999;
+	background-color: Transparent;
+	border-top:       thin dotted #999;
+	text-align:       right;
+}
+
+.valid {
+	float:      right;
+	text-align: right;
+}
+
+.citation {
+	text-align:   right;
+	margin-right: 1em;
+}
+
+.line1 {
+	background-color: #CCF;
+}
+
+.line2 {
+	background-color: #FCC;
+}
+
+.line3 {
+	background-color: #CFC;
+}
+
+td.divine {
+	border: thin dotted #999;
+}
+
+.attention {
+	margin:           0;
+	padding:          0;
+	text-align:       right;
+}
+
+.subtitle {
+	font-size:  75%;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+h1.top {
+	padding:          0.2em 0.5em;
+	font-size:        200%;
+	line-height:      100%;
+}
+
+body.top {
+/*	background-image:    url(../img/top20050101.jpg);	*/
+	background-repeat:   no-repeat;
+	background-position: 100% 0%;
+}
+
+dd ul, dd ol {
+	margin:  0.2em 0;
+	padding: 0;
+}
+
