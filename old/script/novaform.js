@@ -1,0 +1,335 @@
+powno = new Array(0,0,0,0,0,0,0,0);
+pow00 = new Array(0,3,3,5,2,4,2,4);
+pow01 = new Array(3,5,2,5,1,3,1,3);
+pow02 = new Array(3,5,1,3,1,3,2,5);
+pow03 = new Array(1,4,3,5,1,2,2,5);
+pow04 = new Array(2,4,1,4,3,5,1,3);
+pow05 = new Array(1,3,3,5,0,3,3,5);
+pow06 = new Array(1,3,3,5,2,5,1,3);
+pow07 = new Array(2,5,1,3,2,4,2,4);
+pow08 = new Array(2,5,2,5,1,3,2,3);
+pow09 = new Array(1,3,2,5,1,3,3,5);
+pow10 = new Array(2,5,1,3,1,3,3,5);
+pow11 = new Array(2,4,0,4,3,5,2,3);
+pow12 = new Array(3,5,0,4,3,5,1,2);
+pow13 = new Array(3,4,0,5,2,4,2,3);
+pow14 = new Array(2,5,2,5,3,5,0,1);
+pow15 = new Array(2,4,2,4,2,4,1,4);
+pow16 = new Array(2,4,0,4,2,3,3,5);
+pow17 = new Array(2,5,2,5,0,1,3,5);
+pow18 = new Array(3,5,3,5,0,2,1,4);
+pow19 = new Array(2,5,3,5,1,3,1,3);
+pow20 = new Array(3,5,1,3,2,5,1,3);
+pow21 = new Array(3,5,2,5,0,1,2,5);
+pow22 = new Array(1,3,3,5,3,5,0,3);
+pow23 = new Array(3,5,0,3,1,3,3,5);
+pow24 = new Array(2,4,3,5,2,4,0,3);
+pow25 = new Array(0,5,1,5,3,2,3,4);
+
+n_skno = "＝スタイル空欄＝";
+n_sk00 = "カブキ\r▼Ａパック\r１○●○○芸術：歌唱\r１○●○○芸術：ギター演奏\r１○○○●交渉\r１●○○○社会：メディア\r▼Ｂパック\r１○○○●知覚\r１○●○○芸術：ダンス\r１○○●○アスレチック\r１○●○○社会：ストリート\r▼Ｃパック\r１○●○○知覚\r１○●○○心理\r１○○●○アイデンティティ\r１●○○○社会：社交界";
+n_sk01 = "バサラ\r▼Ａパック\r１○●○○心理\r１○●○○霊感\r１●○○○アイデンティティ\r１○○○●社会：アストラル\r▼Ｂパック\r１○●○○芸術：占い\r１○○○●霊感\r１○○○●交渉\r１●○○○社会：ストリート\r▼Ｃパック\r１○○○●知覚\r１○○●○アスレチック\r１○○●○メレー\r１○●○○社会：アストラル";
+n_sk02 = "タタラ\r▼Ａパック\r１●○○○製作：ドラッグ\r１●○○○メディック\r１○●○○心理\r１○○○●社会：テクノロジー\r▼Ｂパック\r１○○○●セキュリティ\r１●○○○トロン\r１○●○○製作：電子機器\r１○●○○社会：ウェブ\r▼Ｃパック\r１○○○●交渉\r１○●○○製作：サイバネティクス\r１○●○○製作：ヴィークル\r１●○○○社会：テクノロジー";
+n_sk03 = "ミストレス\r▼Ａパック\r１○●○○心理\r１○○○●交渉\r１●○○○売買\r１●○○○社会：ストリート\r▼Ｂパック\r１●○○○メレー\r１●○○○心理\r１○○○●動員：レッガー\r１○●○○社会：ストリート\r▼Ｃパック\r１○○○●知覚\r１○●○○霊感\r１●○○○アイデンティテイ\r１○○○●社会：社交界";
+n_sk04 = "カブト\r▼Ａパック\r１●○○○ファイアアーム\r１○○●○メレー\r１○○●○回避\r１○●○○社会：ストリート\r▼Ｂパック\r１●○○○セキュリティ\r１○○●○ファイアアーム\r１○●○○メレー\r１○○○社会：企業●\r▼Ｃパック\r１○●○○霊感\r１○○●○アスレチック\r１○○●○ヴィークル\r１●○○○社会：社交界";
+n_sk05 = "カリスマ\r▼Ａパック\r１○●○○心理\r１○○○●交渉\r１○●○○動員：クグツ\r１●○○○社会：社交界\r▼Ｂパック\r１○●○○霊感\r１●○○○アイデンティティ\r１●○○○交渉\r１○○○●社会：真教\r▼Ｃパック\r１●○○○メディック\r１○●○○交渉\r１○○○●動員：クグツ\r１○●○○社会：ストリート";
+n_sk06 = "マネキン\r▼Ａパック\r１●○○○心理\r１○○○●交渉\r１○●○○売買\r１○○○●社会：社交界\r▼Ｂパック\r１○●○○霊感\r１○●○○交渉\r１○○○●アイデンティティ\r１●○○○社会：ストリート\r▼Ｃパック\r１○○○●知覚\r１○●○○芸術：演技\r１●○○○交渉\r１○●○○社会：メディア";
+n_sk07 = "カゼ\r▼Ａパック\r１●○○○ファイアアーム\r１○○○●知覚\r１○○●○ヴィークル\r１○●○○社会：ストリート\r▼Ｂパック\r１○○●○メレー\r１○○○●ヴィークル\r１○○●○回避\r１●○○○社会：ストリート\r▼Ｃパック\r１○●○○製作：メカニクス\r１●○○○ヴィークル\r１○○○●動員：カゼ\r１○○○●社会：テクノロジー";
+n_sk08 = "フェイト\r▼Ａパック\r１●○○○セキュリティ\r１●○○○ファイアアーム\r１○○○●追跡\r１○●○○社会：N.I.K.\r▼Ｂパック\r１○●○○心理\r１○○○●交渉\r１○●○○アイデンティティ\r１●○○○社会：警察\r▼Ｃパック\r１○○○●隠密\r１○○●○ヴィークル\r１●○○○社会：N.I.K.\r１○○○●社会：ストリート";
+n_sk09 = "クロマク\r▼Ａパック\r１●○○○売買\r１○○○●交渉\r１●○○○社会：企業\r１○●○○社会：ストリート\r▼Ｂパック\r１○●○○売買\r１●○○○交渉\r１○○○●社会：ストリート\r１●○○○社会：警察\r▼Ｃパック\r１○○○●アイデンティティ\r１○●○○心理\r１○○○●動員：レッガー\r１●○○○社会：ストリート";
+n_sk10 = "エグゼク\r▼Ａパック\r１●○○○セキュリティ\r１○○○●交渉\r１○○○●動員：クグツ\r１○●○○社会：企業\r▼Ｂパック\r１○●○○心理\r１●○○○売買\r１○●○○動員：クグツ\r１○○○●社会：企業\r▼Ｃパック\r１●○○○社会：社交界\r１○●○○社会：メディア\r１●○○○社会：企業\r１○○○●社会：千早重工";
+n_sk11 = "カタナ\r▼Ａパック\r１○○○●知覚\r１○○●○メレー\r１○○●○回避\r１○●○○社会：ストリート\r▼Ｂパック\r１○○●○アスレチック\r１●○○○メレー\r１○○○●回避\r１○○○●社会：企業\r▼Ｃパック\r１○○○●メレー\r１○●○○心理\r１○●○○霊感\r１●○○○社会：ストリート";
+n_sk12 = "クグツ\r▼Ａパック\r１○○○●知覚\r１●○○○ファイアアーム\r１○○●○回避\r１○●○○社会：企業\r▼Ｂパック\r１●○○○セキュリティ\r１○○●○メレー\r１○○○●隠密\r１●○○○社会：企業\r▼Ｃパック\r１○●○○心理\r１○○●○アスレチック\r１○○○●交渉\r１○○○●社会：ストリート";
+n_sk13 = "カゲ\r▼Ａパック\r１○○●○メレー\r１○○●○回避\r１○○○●隠密\r１●○○○社会：ストリート\r▼Ｂパック\r１●○○○セキュリティ\r１○○○●メレー\r１●○○○隠密\r１○●○○社会：警察\r▼Ｃパック\r１○●○○知覚\r１○○○●回避\r１○○●○隠密\r１●○○○社会：ストリート";
+n_sk14 = "チャクラ\r▼Ａパック\r１○●○○知覚\r１○○●○メレー\r１○○●○回避\r１○○○●社会：ストリート\r▼Ｂパック\r１●○○○メディック\r１●○○○メレー\r１○●○○回避\r１○○●○社会：武術家\r▼Ｃパック\r１○●○○霊感\r１○○●○アスレチック\r１●○○○ファイアアーム\r１●○○○社会：ストリート";
+n_sk15 = "レッガー\r▼Ａパック\r１●○○○ファイアアーム\r１○○●○回避\r１○○○●交渉\r１○●○○社会：ストリート\r▼Ｂパック\r１○○●○メレー\r１●○○○回避\r１○●○○売買\r１○○○●社会：警察\r▼Ｃパック\r１●○○○セキュリティ\r１○○●○交渉\r１○●○○心理\r１●○○○社会：ストリート";
+n_sk16 = "カブトワリ\r▼Ａパック\r１○○○●知覚\r１●○○○ファイアアーム\r１○○●○回避\r１●○○○社会：ストリート\r▼Ｂパック\r１○●○○知覚\r１○●○○ファイアアーム\r１○○○●隠密\r１○○○●社会：企業\r▼Ｃパック\r１●○○○セキュリティ\r１○○○●ファイアアーム\r１○●○○心理\r１○●○○社会：ストリート";
+n_sk17 = "ハイランダー\r▼Ａパック\r１○●○○心理\r１○●○○霊感\r１○○○●交渉\r１●○○○社会：社交界\r▼Ｂパック\r１●○○○霊感\r１○●○○交渉\r１●○○○アイデンティティ\r１○○○●社会：ストリート\r▼Ｃパック\r１●○○○トロン\r１●○○○心理\r１○●○○アイデンティティ\r１○○○●社会：社交界";
+n_sk18 = "マヤカシ\r▼Ａパック\r１○●○○心理\r１○●○○霊感\r１○○○●アイデンティティ\r１●○○○社会：アストラル\r▼Ｂパック\r１○○○●霊感\r１○●○○芸術：占い\r１●○○○アイデンティティ\r１○●○○社会：ストリート\r▼Ｃパック\r１○●○○知覚\r１●○○○心理\r１○○○●交渉\r１○○○●社会：アストラル";
+n_sk19 = "トーキー\r▼Ａパック\r１○○○●知覚\r１○●○○アレンジ\r１○○○●交渉\r１○●○○社会：メディア\r▼Ｂパック\r１●○○○交渉\r１○○○●追跡\r１○○●○アスレチック\r１●○○○社会：社交界\r▼Ｃパック\r１●○○○トロン\r１○●○○心理\r１○○●○ヴィークル\r１○○○●社会：メディア";
+n_sk20 = "イヌ\r▼Ａパック\r１●○○○ファイアアーム\r１○○●○メレー\r１○○●○回避\r１○○○●社会：警察\r▼Ｂパック\r１●○○○メレー\r１○○●○ヴィークル\r１○○○●追跡\r１●○○○社会：警察\r▼Ｃパック\r１○●○○心理\r１●○○○アイデンティティ\r１○○○●交渉\r１○●○○社会：ストリート";
+n_sk21 = "ニューロ\r▼Ａパック\r１●○○○セキュリティ\r１●○○○トロン\r１○○○●交渉\r１○●○○社会：ウェブ\r▼Ｂパック\r１○●○○トロン\r１○●○○製作：電子機器\r１○○○●追跡\r１●○○○社会：ウェブ\r▼Ｃパック\r１○○○●トロン\r１○●○○セキュリティ\r１○●○○心理\r１○○○●社会：ウェブ";
+n_sk22 = "ヒルコ\r▼No Data";
+n_sk23 = "アラシ\r▼No Data";
+n_sk24 = "カゲムシャ\r▼No Data";
+n_sk25 = "アヤカシ\r▼No Data";
+
+koneno = "１○○○○コネ：スタイル未定";
+kone00 = "１○●○○コネ：ジェニファーロックウェル";
+kone01 = "１●○○○コネ：占いじじい";
+kone02 = "１●○○○コネ：アルファ";
+kone03 = "１○●○○コネ：石鎚";
+kone04 = "１●○○○コネ：ブロッカー";
+kone05 = "１○●○○コネ：粕川うらら";
+kone06 = "１○●○○コネ：御堂真黄";
+kone07 = "１○○○●コネ：カーロス・マウリシオ・ダ・シルバ";
+kone08 = "１○○○●コネ：聖美キーファー";
+kone09 = "１○○○●コネ：アスタロテ";
+kone10 = "１●○○○コネ：千早雅之";
+kone11 = "１○○○●コネ：音羽南海子";
+kone12 = "１●○○○コネ：ミューズ";
+kone13 = "１○○○●コネ：マイケルグローリー";
+kone14 = "１○●○○コネ：芳華玲";
+kone15 = "１○○●○コネ：音羽南海子";
+kone16 = "１○○○●コネ：マイケルグローリー";
+kone17 = "１○●○○コネ：アルファ";
+kone18 = "１○●○○コネ：占いじじい";
+kone19 = "１○○○●コネ：三田茂";
+kone20 = "１○●○○コネ：千早冴子";
+kone21 = "１●○○○コネ：アルファ";
+kone22 = "１○○○○コネ：未定";
+kone23 = "１○○○○コネ：未定";
+kone24 = "１○○○○コネ：未定";
+kone25 = "１○○○○コネ：未定";
+
+s_skno = "＝スタイル空欄＝";
+s_sk00 = "▼カブキ\r熱狂\rシャッフル\r逆回り\r完全燃焼\r挑発\rＢＧＭチェンジ\r早変わり\rコミック・ヒーロー\rチェシャ猫\rカース\rオーヴァナイト・センセーション\r大逆転【奥義】\rスポットライト(TE)\rウィンド・オブ・ラック(TE)\rラッキーストライク(TE)\rシャウト(TE)\rラストアクションヒーロー(KE)\rセカンドディール(SSS2)\rマエストロ(SSS9)";
+s_sk01 = "▼バサラ\r転移\r通過\r障壁\r力学\r治癒\r確率操作\r変化\r元力：光学（正）\r元力：光学（負）\r元力：電磁（正）\r元力：電磁（負）\r元力：火炎（正）\r元力：火炎（負）\r元力：疾風（正）\r元力：疾風（負）\r元力：水雲（正）\r元力：水雲（負）\r元力：大地（正）\r元力：大地（負）\r防護(TE)\r増幅(TE)\r反鏡(TE)\r呪破(TE)【奥義】\r敏速／鈍化(KE)\r転送(SSS1)\r付与(SSS9)";
+s_sk02 = "▼タタラ\r改造\r教授\r入魂\r合成\r究極鑑定\r即席修理\rビット・デコイ\r超スピード作業\rレプリカ\rスーパードクター\rオーバーテクノロジー\r超テク【奥義】\r試作(TE)\rデットコピー(TE)\r模倣(TE)\rブレークダウン(TE)【奥義】\r手術(KE)\r弱点看破(SSS2)\r発信器(SSS6)";
+s_sk03 = "▼ミストレス\rおしおき\r微笑のベール\r母性本能\r共感\r鼓舞\r救済\r動物との会話\r目配せ\rジャンヌ・ダルク\r応援\r盾の乙女\r女神の御手【奥義】\r厚顔(TE)\r不動(TE)\r自己犠牲(TE)\rコンタクト(TE)\r平和の使者(TE)【奥義】\r抱擁(KE)\r一喝(SSS1)\rマジシャンズ・セレクト(SSS9)";
+s_sk04 = "▼カブト\rカバーリング\r自動防御\r戦術\r見切り\r鉄壁\r護身術\r不動\r隠し武器\rディフレクション\r反射防御\r八重垣\rク・フレ【奥義】\rディスアーム(TE)\r最後の砦(TE)\r仁王立ち(TE)\r完全防護(TE)\r八面六臂(TE)\r見えざる盾(KE)\r一心同体(SSS1)\r軽装化(SSS6)";
+s_sk05 = "▼カリスマ\rゲシュタルト崩壊\rサブリミナル\r贖罪\r親衛隊\r不動\r狂信者\r身代わり\r寄進\r叱咤激励\r集団催眠\r威厳【奥義】\r免罪符【奥義】\r演説(TE)\r名声(TE)\r聖戦(TE)\r洗脳(TE)【奥義】\r庇護(KE)\r七光り(SSS4)\r個人攻撃(SSS6)";
+s_sk06 = "▼マネキン\r微笑のベール\r大嫌い\rお願い\r一期一会\r口答え\r太鼓持ち\r友達の輪\r悪魔のささやき\rお追従\r誘惑\r白馬の王子\r愛の交歓\r魔女のさけび【奥義】\r厚顔(TE)\rパトロン(TE)\r横槍(TE)\r買い言葉(TE)\rティア・ドロップ(TE)【奥義】\r一目惚れ(KE)\r陰口(SSS3)\rおねだり(SSS9)";
+s_sk07 = "▼カゼ\r曲芸飛行／走行\rバーンナウト\rダイレクト・ロール\rマップ\rチャージ\rドッジ\rハイパードライブ\rスーパーブレーク\r即席修理\rライディング・インファイト\rカミカゼ【奥義】\rマルチ・アクション【奥義】\rハイ・プレッシャー(TE)\rダズル(TE)\rホロヴィジョン(TE)\r曲乗り(TE)\rライドオン(TE)\rジョリーロジャー(KE)\rロケットスタート(SSS3)\rモンスターマシン(SSS9)";
+s_sk08 = "▼フェイト\rシャーロック・ホームズ\r警報\rスタイル感知\rはりつき\rカメラ記憶\r不動\r人心操作\rオシログラフ\r裏読み\r護身術\r読唇\r灰色の脳細胞【奥義】\r虚言(TE)\rホークアイ(TE)\rハードボイルド(TE)\r反射抵抗(TE)\rモノローグ(TE)【奥義】\r超回想(KE)\r殺気感知(SSS4)\rチェックメイト(SSS7)";
+s_sk09 = "▼クロマク\r黒い陰謀\r影の謀略\r擬似合法\r任侠道\r根回し\r派遣依頼\r友達の輪\r裏読み\r身代わり\r裏ルート\rブラック・マーケット\r揉み消し\r派遣(TE)\r隠れ家(TE)\r吊し上げ(TE)\r天災(TE)\r泰然自若(KE)\r帝王の時間(SSS3)【奥義】\rあやつり人形(SSS7)";
+s_sk10 = "▼エグゼク\r企業の一撃\r企業情報\r名詞\r揉み消し\rレイオフ\r産業スパイ\r根回し\r試作品\r予算獲得\r擬似合法\r身代わり\r圧力【奥義】\r社販購入(TE)\r市場介入(TE)\r賞金首(TE)\r運命の輪(TE)\rサーチ＆デストロイ(KE)\r少数精鋭(SSS3)\rコレクティブ(SSS8)";
+s_sk11 = "▼カタナ\r斬裁剣\rツバメ返し\rカマイタチ\r紙一重\r無風剣\r心頭滅却\r居合い\rリフレクション\r修羅\r見切り\r二刀流\rニ天一流【奥義】\r無明剣(TE)\r鬼の爪(TE)\r羅刹(TE)\r真剣白羽取り(TE)\r影殺剣(KE)\r一心不乱(SSS2)\r粉砕剣【奥義】(SSS9)";
+s_sk12 = "▼クグツ\r支援\rメイデイ\r身代わり\r企業情報\r忠誠\r入院\r名刺\rバンザイ\r隠し武器\r偽造依頼\r製品知識\rリザレクション【奥義】\r社販購入(TE)\r営業(TE)\r仕込武器(TE)\r献身(TE)【奥義】\rマルチワーク(KE)\r直立不動(SSS4)\rメガ・コーポ(SSS9)";
+s_sk13 = "▼カゲ\r無面目\r影化\rファインド・ウィークネス\r猿飛\r心頭滅却\r空蝉\r彫像\r完全奇襲\r隠し武器\rフェイク\r分身【奥義】\r陽炎化【奥義】\r透過(TE)\r不動(TE)\rベイルアウト(TE)\r胡蝶(TE)\r飛針(KE)\r飛刃(SSS1)\r忍【奥義】(SSS8)";
+s_sk14 = "▼チャクラ\r気功\r鉄身\r鉄拳\r手刀\r心頭滅却\r呼吸\r徹し\r指弾\r遠当\r縮地\r点穴【奥義】\r合気【奥義】\r連撃(TE)\r刃乗り(TE)\r浮身(TE)\r乱舞(TE)【奥義】\r錬気(KE)\r八卦(SSS2)\r乾坤一擲(SSS8)";
+s_sk15 = "▼レッガー\rダーティ・インファイト\r威圧\r任侠道\r派遣依頼\rブラフ\r鉄砲玉\r隠し武器\r権力癒着\rイカサマ\rとんずら\r裏ルート\r捨て身【奥義】\rエスケープ(TE)\rカモネギ(TE)\rエンコ(TE)\rブラックメイル(TE)\r強奪(KE)\r仁義(SSS4)\rセイフハウス(SSS6)";
+s_sk16 = "▼カブトワリ\r跳弾\r必殺の矢\r貫きの矢\r花吹雪\r距離外射撃\r背面撃ち\rスピード・ロード\rガン・フー\rクイック・ターゲッティング\r黒羽の矢\rクイックドロー\r片手射撃【奥義】\r禅銃【奥義】\rピンホールショット(TE)\r天雷(TE)\r自動反撃(TE)【奥義】\rファニング(KE)\rピンポイント(SSS4)【奥義】\rエイミング(SSS7)";
+s_sk17 = "▼ハイランダー\r影の守り手\rデジャ・ヴュ\rクローン\r天使の救済\r後光\r隠れバディ\rアテンション\r異言\r謎のプレゼント\r過去よりの使者\rイノセント\r天上人【奥義】\r守護天使(TE)\r足長おじさん(TE)\r蘇る過去(TE)\r還撃(TE)\r天命(TE)【奥義】\rバックアップメモリー(KE)\rシーカー(SSS4)\rメビウスの環(SSS7)";
+s_sk18 = "▼マヤカシ\r伝心(GX)\r霊癒(GX)\r幻覚(GX)\r実体化(GX)\r結霊(GX)\r幽体離脱(GX)\r霊覚(GX)\r隠心(GX)\r霊査(GX)\r還滅(GX)\r霊視(GX)\r結界(GX)\r神託(GX)\r伝命(GX)\r干渉(GX)【奥義】\r憑依(GX)【奥義】\r分心(GX)\r延長(GX)\r知覚共有(GX)\r星幽門(KE)\r合技(SSS1)【奥義】\r呪縛(SSS7)";
+s_sk19 = "▼トーキー\r早口\rすりぬけ\r写神\r千里眼\rスッパ抜き\rバックステージ・パス\rインタビュー\rシャッター・チャンス\r脱がせの鬼\r裏読み\r揉み消し\r生還【奥義】\rパパラッチ(TE)\r先見の明(TE)\rフォローアップ(TE)\rスクープ(TE)\rハードボイルド(TE)\r壁に耳あり(KE)\rダイム・ノヴェル(SSS4)【奥義】\r追い込み(SSS7)";
+s_sk20 = "▼イヌ\r携帯許可\r指名手配\r増援\rフリーズ\rサイレン\r正当防衛\r護身術\r拘留\rバッヂ\r逮捕礼状\r特権行使\r職権乱用【奥義】\r情報屋(TE)\r聞き込み(TE)\r逮捕術(TE)\rキープオフ(TE)\r最後の審判(TE)【奥義】\r私服警官(KE)\r銭投げ(SSS2)\rバレル・ガード(SSS6)";
+s_sk21 = "▼ニューロ\rアウト・オブ・コントロール\rRoadz 2 Lord\rヴィジョナリー\rデッド・ロック\rスナーフ・アドレス\rビット・デコイ\rストリーム・マップ\rポルターガイスト\rトレース\rＳＰＡＭ\rカタトニー【奥義】\rブービー・トラップ【奥義】\rサークル・オブ・プロテクション(TE)\rリインストール(TE)\rパワー・サージ(TE)\rフリップ・フロップ(TE)\rＡＩ創造(KE)\r０１フィーリング(SSS3)\r構造解析【奥義】(SSS8)";
+s_sk22 = "▼ヒルコ\r核酸毒(GX)\r再生(GX)\r変態(GX)\r触手(GX)\r咆哮(GX)\r生存本能(GX)\rマトリクス複写(GX)\r瞬間適応(GX)\r動物との会話(GX)\r縮地(GX)\r完全抗体(GX)\r領域(GX)【奥義】\r巨体(KE)\r硬化(KE)\r獣の気(SSS1)";
+s_sk23 = "▼アラシ\rドール・ファイト(GX)\rオーヴァーレブ(GX)\rライド・オン(GX)\r曲芸飛行／走行(GX)\rチャージ(GX)\rドッグ・ファイト(GX)\rドッジ(GX)\rウィークポイント(GX)\rスタンピード(GX)\rフォーリングエンジェル(GX)\rブロック(GX)\rフル・ファイア(GX)【奥義】\r近接射撃(KE)\r物資調達(KE)\rスクランブル(SSS4)\rトップスピード(SSS6)";
+s_sk24 = "▼カゲムシャ\r能面(GX)\r写し技(GX)\rスタイル感知(GX)\r消跡(GX)\r不動(GX)\r薄影(GX)\rドッペルゲンガー(GX)\rリクエスト(GX)\r偽称(GX)\r影踏み(GX)\rデコイ(GX)\r人柱(GX)\r完全複写(GX)【奥義】\rサトリ(KE)\rスナッチ！(KE)【奥義】\rペアルック(SSS6)\rパントマイム【奥義】(SSS9)";
+s_sk25 = "▼アヤカシ\r血脈：獣の一族(GX)\r血脈：龍の一族(GX)\r血脈：妖精の一族(GX)\r血脈：鬼の一族(GX)\r血脈：人形の一族(GX)\r血脈：夜魔の一族(GX)）\r血脈：魔器の一族(KE)\r血脈：悪魔の一族(KE)\r魔翼(GX)\r都市伝説(GX)\r忘却(GX)\r人化(GX)\r畏怖(GX)\r夢魔(GX)\r異形化(GX)【奥義】\r始祖(GX)【奥義】\r支配(SSS1)\r邪眼(SSS8)";
+
+eq_mno = "＝スタイル空欄＝";
+eq_m00 = "●カブキ\r▼Ａパック\r“カー”神秘的な服\rＩＡＮＵＳ２\r“ＥＯ２”シンセギター\rＫ－ＴＡＩ\r事務所\r（グリーン・隠：10・セ：20）\rマネージャー（エキストラ）\r▼Ｂパック\rポケットロン\rステイヤーＭＫ２\r運転手（エキストラ）\r▼Ｃパック\r“紅”サイバー口紅";
+eq_m01 = "●バサラ\r▼Ａパック\r“カー”神秘的な服\r厄除け符・身隠し符・身代わり符\rニューロデッキ\r“不動”降魔剣\rMP10ピストル\rホルスター\r隠れ家\r（レッド・隠：17・セ：0）\r▼Ｂパック\rアイ・オブ・ザ・タイガー\r魔術書（バサラ用）\r▼Ｃパック\rベイシックフレーム（腕）";
+eq_m02 = "●タタラ\r▼Ａパック\rＩＡＮＵＳ２\r３Ｄプロジェクタ\rＱ＆Ｑ医療キット\rアインシュタイン\rナース１１９\r研究室\r（グリーン・隠：10・セ：20）\r▼Ｂパック\rＷＡＫ◎ＰＲＯ－Ｋ\rＦＴＬ９９ＸＶＩ\rリフレックス\r▼Ｃパック\rベイシックフレーム（手）\rタタラハンド";
+eq_m03 = "●ミストレス\r▼Ａパック\r“雷神”スタンガン\r“彩”イブニングドレス\r“翼”バック\rＩＡＮＵＳ２\rポケットロン\r自分の経営しているバー\r（イエロー・隠：10・セ：15）\rバーテン（エキストラ）\r▼Ｂパック\rジェネシスリムジン\r運転手（エキストラ）\r蝶ホロドレス\r▼Ｃパック\r紅サイバー口紅";
+eq_m04 = "●カブト\r▼Ａパック\rクリスタルウォール\rMP10ピストル\rMAX10防弾チョッキ\rＢＬＡＫＫ＝ＩＡＮＵＳ\rオーヴァドライブ\rポケットロン\r▼Ｂパック\r“雷神・改”スタン警棒\rデモンズスキン\r▼Ｃパック\rキグナス";
+eq_m05 = "●カリスマ\r▼Ａパック\rクロックワークスーツ\rＩＡＮＵＳ２\rポケットロン\rジェネシスリムジン\r運転手（エキストラ）\r“芹奈”ドロイド\rカルティストのたまり場\r（グリーン・隠：10・セ：20）\r▼Ｂパック\r身代わり符\rブースタマスタ\r▼Ｃパック\r白鯨クルーザ";
+eq_m06 = "●マネキン\r▼Ａパック\r“蝶”ホロドレス\r“紅”サイバー口紅\rＩＡＮＵＳ２\r演神\r人格カード（冬子ver.11、結城あや）\rＫ－ＴＡＩ\r“翼”バック\r▼Ｂパック\r高級マンション\r（ホワイト・隠：13・セ：25）\r“藍”サイバーマニキュア\r▼Ｃパック\rアストＺＳＲ２";
+eq_m07 = "●カゼ\r▼Ａパック\r“ＢＡＮＧ”カイザーナックル\rＩＡＮＵＳ２\r“弥勒”多機能サングラス\rステッペンウルフ\r（withＷＩＮＤＳ）\rフライバイワイア\rポケットロン\r▼Ｂパック\r“ＡＰ４０”サブマシンガン\rＭＢジープ\r▼Ｃパック\r“エンジェル”60mmランチャー\r＆砲弾１発";
+eq_m08 = "●フェイト\r▼Ａパック\rMP10ピストル\rホルスター\rフェイトコート\rN.I.K.の鑑札\rHC-022\rポケットロン\r事務所\r（イエロー・隠：10・セ：12）\r▼Ｂパック\r“弥勒”多機能サングラス\r“上々”スクーター\r▼Ｃパック\rアイ・オブ・ザ・タイガー";
+eq_m09 = "●クロマク\r▼Ａパック\r“Ｐ４”ピストル\rポケットロン（withＳＣ－８）\r“ジェネシス”リムジン\r運転手（エキストラ）\r秘書（エキストラ）\r事務所\r（グリーン・隠：10・セ：20）\r▼Ｂパック\rＩＡＮＵＳ２\r“セバスチャン”ドロイド\r▼Ｃパック\r“白鯨”クルーザ";
+eq_m10 = "●エグゼク\r▼Ａパック\rＩＡＮＵＳ２\rポケットロン\r“芹奈”ドロイド\rコンドミニアム\r（ホワイト・隠：13・セ：28）\rジェネシスリムジン\r運転手（エキストラ）\r▼Ｂパック\rＶ－９バット\r駐車場\r（ホワイト・隠：13・セ：18）\r▼Ｃパック\r演神\r人格カード\r（千早俊之（非売品）、易経）";
+eq_m11 = "●カタナ\r▼Ａパック\rＫ－ＴＡＩ\r降魔刀\rブレードベア\r鎖帷子\rＢＬＡＫＫ＝ＩＡＮＵＳ\rオーヴァドライヴ\r▼Ｂパック\rブースタマスタ\rアイ・オブ・ザ・タイガー\r▼Ｃパック\rデモンズスキン";
+eq_m12 = "●クグツ\r▼Ａパック\rジェントリー\r“ＡＰＳ１１”サブマシンガン\rドラッグスタビライザ＆鬼１０本\rＩＡＮＵＳ２\rオートマン\r技能クリスタル３種\r（社会：社交界、ヴィークル、トロン）\rイーヴルイーター\r▼Ｂパック\rフェイスオフ\r鎖帷子\r▼Ｃパック\rステイヤーＭＫ２";
+eq_m13 = "●カゲ\r▼Ａパック\rシャドウブレード\rＭＤガイスト\rフェイトコート\rＩＡＮＵＳ２\r演神\r人格カード３枚\r（さらりまん、ちんぴら、結城あや）\r▼Ｂパック\rゴートカード\rModel.2020熱光学迷彩\r▼Ｃパック\rドルフ";
+eq_m14 = "●チャクラ\r▼Ａパック\rＤＲＡＧＯＮヌンチャク\r“武”胴着\rＫ－ＴＡＩ\rウォーデューク\rチャンピオンマウンテンバイク\r“頼政”大弓\r▼Ｂパック\rベイシックフレーム（腕）\rMAX10防弾チョッキ\r▼Ｃパック\r道場\r（レッド・隠：15・セ：6）\r門弟（エキストラ）";
+eq_m15 = "●レッガー\r▼Ａパック\rトンプソンM1928サブマシンガン\rフェイトコート\rクロックワークスーツ\rＩＡＮＵＳ２\rポケットロン\r子分（エキストラ）\r▼Ｂパック\rレイザーシャープ\rデモンズスキン\r▼Ｃパック\rイア・オブ・ザ・ドラゴンーム";
+eq_m16 = "●カブトワリ\r▼Ａパック\rＰ４ピストル\rホルスター\rサンダーボルト（withパンサーヴァリアント）\rMAX10防弾チョッキ\rパンサー\rＢＬＡＫＫ＝ＩＡＮＵＳ\rＫ－ＴＡＩ\r▼Ｂパック\rオーヴァドライヴ\rアイ・オブ・ザ・タイガー\r▼Ｃパック\rブースタマスタ";
+eq_m17 = "●ハイランダー\r▼Ａパック\r“サーフェス”ホロドレス\r“華”アンダーウェア\r“藍”サイバーマニキュア\rＩＡＮＵＳ２\rポケットロン\r過去への手がかり\r▼Ｂパック\rダーマルディスプレイ\rペット：謎の生物\r▼Ｃパック\r高級ホテル\r（グリーン・隠：10・セ：19）";
+eq_m18 = "●マヤカシ\r▼Ａパック\r“カー”シリーズ\r厄除け符・身隠し符・身代わり符\rニューロデッキ\r占い小屋\r（イエロー・隠：10・セ：12）\rポケットロン\r“退魔”独鈷杵\r▼Ｂパック\r魔術書（マヤカシ用）\rペット：鳥（エキストラ）\r▼Ｃパック\rつき人（エキストラ）";
+eq_m19 = "●トーキー\r▼Ａパック\rフェイトコート\rＩＡＮＵＳ２\rアイ・オブ・ザ・タイガー\r“ＨＣ－０２２”ハンディカメラ\rポケットロン\r編集スタジオ\r（イエロー・隠：10・セ：12）\r▼Ｂパック\rベイシックフレーム（手）\r“ネッシー”CCDカメラ\r▼Ｃパック\rシティベア４ＷＤバン";
+eq_m20 = "●イヌ\r▼Ａパック\rMP10ピストル＆ホルスター\r所属組織の制服、手錠、バッヂ\r高烏帽子（withＳＣ－８）\r“Ｂｏｏ”トンファー\rMAX10防弾チョッキ\rポケットロン\r▼Ｂパック\rＩＡＮＵＳ２\rステッペンウルフ\r▼Ｃパック\rステイヤーＭＫ２";
+eq_m21 = "●ニューロ\r▼Ａパック\rワイア＆ワイア\rポケットロン（withＳＣ－８）\rＦＴＬ９９ ＸＶＩ\rデフレックス\r防人\r隠れ家\r（レッド・隠：15・セ：15）\r▼Ｂパック\rDN5+プロセッサ\r戦鬼\r▼Ｃパック\rベイシックフレーム（手：両手）\rニューロハンド";
+eq_m22 = "●ヒルコ\r▼No Data";
+eq_m23 = "●アラシ\r▼No Data";
+eq_m24 = "●カゲムシャ\r▼No Data";
+eq_m25 = "●アヤカシ\r▼No Data";
+
+eq_bno = "＝スタイル空欄＝";
+eq_b00 = "●カブキ\r▼標準装備\rファッション\rＩＡＮＵＳ２\r楽器など道具一式\rＫ－ＴＡＩ\rエキストラ\r▼選択装備\rファッション\rコスメティック\r演神＆人格カード２種\rポケットロン\rドラッグ２種\r４輪＆運転手（エキストラ）\r事務所（住居）";
+eq_b01 = "●バサラ\r▼標準装備\rファッション\rお札３種\r魔剣\rタリスマン\r隠れ家（住居）\r▼選択装備\r手持ち武器\r銃器＆銃器オプション\rパワードフレーム\rセンサリーウェア\rドラッグ２種\r魔術書（バサラ用）\rニューロデッキ";
+eq_b02 = "●タタラ\r▼標準装備\rＩＡＮＵＳ２\rインターリンク\r各種ツール\rバディ\rツールウェア＆ファイル\r▼選択装備\rベイシックフレーム（手）＆スキンコート\rフレームオプション\rインターリンク\rドラッグ２種\rタップ\rトロンオプション\r研究室（住居）";
+eq_b03 = "●ミストレス\r▼標準装備\r“雷神”スタンガン\rファッション\rコスメティック\rＩＡＮＵＳ２\rポケットロン\r▼選択装備\rファッション\rコスメティック\r４輪＆運転手（エキストラ）\r商売繁盛札\r自分の経営している店（住居）\rエキストラ\rペット";
+eq_b04 = "●カブト\r▼標準装備\r手持ち武器\r銃器＆銃器オプション\rボディアーマー\rＢＬＡＫＫ＝ＩＡＮＵＳorブレイヴ・ハート\rポケットロン\r▼選択装備\r４輪\rリーサルウェポン\rリーサルアーマー\rパワードフレーム\rインターナル\rニューラルブースタ\rセンサリーウェア";
+eq_b05 = "●カリスマ\r▼標準装備\rファッション\rポケットロン\r４輪＆運転手（エキストラ）\rドロイド\rカルティストのたまり場（住居）\r▼選択装備\rファッション\rインターナル\rＩＡＮＵＳ２\rドラッグ２種\r“白鯨”クルーザ\rお札\rエキストラ";
+eq_b06 = "●マネキン\r▼標準装備\rファッション\rコスメティック\rＩＡＮＵＳ２\r演神＆人格カード２種\rＫ－ＴＡＩ\r▼選択装備\rファッション\rコスメティック\rインターリンク\rドラッグ２種\rポケットロン\r４輪\rホワイトエリアの高級マンション";
+eq_b07 = "●カゼ\r▼標準装備\r“ＢＡＮＧ”カイザーナックル\rＩＡＮＵＳ２\r“弥勒”多機能サングラス\r２輪or４輪（withＷＩＮＤＳ）\rポケットロン\r▼選択装備\r“ＡＰ４０”サブマシンガン\rＦＬ機関砲＆砲弾\r“エンジェル”６０mmランチャー＆砲弾\r“高烏帽子”多機能ヘルメット\r４輪\rヴィークルオプション\r交通安全札";
+eq_b08 = "●フェイト\r▼標準装備\rN.I.K.の鑑札orB.H.K.の鑑札\r\“Ｐ４”ピストル＆銃器オプション\rフェイトコート\rポケットロン\r事務所（住居）\r▼選択装備\r手持ち武器\rボディアーマー\rセンサリーウェア\r各種ツール\r電話傍受装備\rＳＣ－８\r２輪\r４輪";
+eq_b09 = "●クロマク\r▼標準装備\r“Ｐ４”ピストル\rポケットロン（with“ＳＣ－８”）\r“ジェネシス”リムジン\rエキストラ\r事務所（住居）\r▼選択装備\rＩＡＮＵＳ２\rドラッグ２種\rチョッパー\r“Ｖ－９バット”小型ＶＴＯＬ\r“白鯨”クルーザ\rドロイド\rエキストラ";
+eq_b10 = "●エグゼク\r▼標準装備\rＩＡＮＵＳ２\rドロイド\rエキストラ\rポケットロン\r自分専用の個室（住居）\r▼選択装備\r演神＆人格カード２種\r４輪\rチョッパー\r航空機\r船舶\rオートマン＆技能クリスタル５種\rバディ";
+eq_b11 = "●カタナ\r▼標準装備\rＢＬＡＫＫ＝ＩＡＮＵＳorブレイブハート\r手持ち武器\rリーサルアームズ\rボディアーマー\rニューラルブースタ\rＫ－ＴＡＩ\r▼選択装備\r手持ち武器＆ウェポンマウント\rリーサルアーマー\rパワードフレーム\rフレームオプション\rセンサリーウェア\rドラッグ２種";
+eq_b12 = "●クグツ\r▼標準装備\r“ＡＰＳ１１”サブマシンガン\rジェントリー\rドラッグスタビライザ＆鬼１０本\rＩＡＮＵＳ２\rオートマン＆技能クリスタル３種\rポケットロン\r▼選択装備\r銃器＆銃器オプション\rボディアーマー\rパワードフレーム\rインターナル\r演神＆人格カード３種\rセンサリーウェア\r４輪";
+eq_b13 = "●カゲ\r▼標準装備\r手持ち武器\rボディアーマー\rＩＡＮＵＳ\r演神＆人格カード３種\r▼選択装備\rリーサルアームズ\rニューラルブースタ\rModel.2020熱光学迷彩\rパワードフレーム\rセンサリーウェア\rインターリンク\rゴートカード";
+eq_b14 = "●チャクラ\r▼標準装備\r手持ち武器\r“武”胴着\rＫ－ＴＡＩ\r２輪\rリーサルアームズ\r▼選択装備\r“頼政”大弓\rボディアーマー\rパワードフレーム\rフレームオプション\rニューラルブースタ\r道場（住居）\rエキストラ";
+eq_b15 = "●レッガー\r▼標準装備\r“トンプソンM1928”サブマシンガン\rボディアーマー\rファッション\rポケットロン（withＳＣ－８）\r子分（エキストラ）\r▼選択装備\rリーサルアームズ\rリーサルアーマー\rパワードフレーム\rインターナル\rＩＡＮＵＳ２\rセンサリーウェア\rドラッグ２種";
+eq_b16 = "●カブトワリ\r▼標準装備\r銃器（withパンサーヴァリアント）\r銃器オプション\rパンサー\rボディアーマー\rＢＬＡＫＫ＝ＩＡＮＵＳorブレイブハート\rＫ－ＴＡＩ\r▼選択装備\r銃器＆銃器オプション\rＡＰ弾１００発or爆烈弾１００発\rニューラルブースタ\rリーサルアーマー\rセンサリーウェア\rパワードフレーム\rインターナル";
+eq_b17 = "●ハイランダー\r▼標準装備\rファッション\rコスメティック\rＩＡＮＵＳ２\rポケットロン\r過去への手がかり\r▼選択装備\rファッション\rコスメティック\rインターナル\rインターリンク\rドロイド\r宿泊\rペット";
+eq_b18 = "●マヤカシ\r▼標準装備\rファッション\rお札３種\r魔剣\rニューロデッキ\r占い小屋（住居）▼選択装備\r手持ち武器\rドラッグ２種\rポケットロン\r魔術書（マヤカシ用）\r瞑想できる秘密の場所（住居、隠匿レート+２）\rエキストラ\rペット";
+eq_b19 = "●トーキー\r▼標準装備\rボディアーマー\rＩＡＮＵＳ２\r“ＨＣ－０２２”ハンディカメラ\rポケットロン\rセンサリーウェア\r▼選択装備\rリーサルアーマー\rインターナル\r編集スタジオ（住居）\rベイシックフレーム（手）＆スキンコート\rフレームオプション\r各種ツール\r２輪or４輪";
+eq_b20 = "●イヌ\r▼標準装備\r“ＭＰ１０”ピストル＆ホルスター\r所属組織の制服、手錠、バッヂorB.H.K.の鑑札\rポケットロン\r高烏帽子（withＳＣ－８）\r“Ｂｏｏ”トンファー\r▼選択装備\rボディアーマー\rリーサルアーマー\rインターナル\rＩＡＮＵＳ２\rポケットロン\r２輪\r４輪";
+eq_b21 = "●ニューロ\r▼標準装備\rタップ\rワイア＆ワイア\rトロンオプション\rポケットロン（withＳＣ－８）\rプログラム\r▼選択装備\rベイシックフレーム（手：両手）＆ニューロハンド（両手）\rインターナル\rＩＡＮＵＳ２\r各種ツール\rバディ\rトロンオプション２種\r隠れ家（住居）";
+eq_b22 = "●ヒルコ\r▼標準装備\rジネティックインプラント\r手持ち武器\rボディアーマー\r住居（ＤＡＫつき）\rファッション\r▼選択装備\rジネティックインプラント\r手持ち武器\r住居（ＤＡＫつき）\rペット\rファッション\rドラッグ３種\rゴートカード";
+eq_b23 = "●アラシ\r▼標準装備\r大型特殊車両（withＷＩＮＤＳ）\r兵器＆砲弾\rＩＡＮＵＳ２\r銃器\r▼選択装備\rヴィークル（withＷＩＮＤＳ）\r兵器\r砲弾\rヴィークルオプション\r銃器\rニューラルブースタ\rインターナル";
+eq_b24 = "●カゲムシャ\r▼標準装備\r・“プロテウス”全身義体\r人格カード３種\rポケットロン\rゴートカード\r主人と同じ服装\r▼選択装備\r手持ち武器\r銃器\rボディアーマー\r各種ツール\rタップ\r２輪\r４輪\r身代わり符";
+eq_b25 = "●アヤカシ\r▼標準装備\rファッション\rニューラルブースタ\r巣（住居）\r手持ち武器\rエキストラ\r▼選択装備\rＩＡＮＵＳオプション\r隠れ家（住居）\rコスメティック\r魔剣\r４輪＆運転手（エキストラ）\r銃器";
+
+mun_no = "▼無条件取得装備\r？\r\r";
+mun_0 = "▼無条件取得装備\rダンボールハウス\r（レッド　隠：18　セ：0）\r\r";
+mun_1 = "▼無条件取得装備\r安アパート\r（レッド　隠：15　セ：6）\r\r";
+mun_2 = "▼無条件取得装備\rマンション：DAKつき\r（レッド　隠：15　セ：12）\r\r";
+mun_3 = "▼無条件取得装備\rクレッド・クリス\r高級マンション：DAKつき\r（レッド　隠：15　セ：15）\r\r";
+mun_4 = "▼無条件取得装備\rクレッド・クリス\rコフィン：DAKつき\r（イエロ－　隠：10　セ：6）\r\r";
+mun_5 = "▼無条件取得装備\rクレッド・クリス\rマンション：DAKつき\r（イエロー　隠：10　セ：12）\r\r";
+mun_6 = "▼無条件取得装備\rクレッド・クリス\r高級マンション：DAKつき\r（イエロー　隠：10　セ：15）\r\r";
+mun_7 = "▼無条件取得装備\rクレッド・クリス\rマンション：DAKつき\r（グリーン　隠：10　セ：17）\r\r";
+mun_8 = "▼無条件取得装備\rクレッド・クリス\r高級マンション：DAKつき\r（グリーン　隠：10　セ：20）\r\r";
+mun_9 = "▼無条件取得装備\rクレッド・クリス\rコンドミニアム：DAKつき\r（グリーン　隠：10　セ：23）\r\r";
+mun_10 = "▼無条件取得装備\rクレッド・クリス\r高級マンション：DAKつき\r（ホワイト　隠：13～　セ：25～）\r\r";
+
+n_sk_list = "セキュリティ\rトロン\rファイアアーム\rメディック\r１●○○○知覚\rアレンジ\r製作：\r心理\r芸術：\r霊感\r１○○●○アイデンティティ\rアスレチック\rヴィークル\rメレー\r回避\r隠密\r交渉\r１○○○●売買\r追跡\r\r１○○○●社会：Ｎ◎ＶＡ\r１○○●○社会：出身地\r\r";
+
+mujoken = "▼無条件取得技能\r１●○○○知覚\r１○○●○アイデンティティ\r１○○○●売買\r１○○○●社会：Ｎ◎ＶＡ\r１○○●○社会：出身地\r\r▼コネ\r"
+
+function check_style(){
+switch(document.form1.style1.selectedIndex){
+case 0	: Pow_a=powno; N_sk_a=n_skno; Kone_a=koneno; S_sk_a=s_skno; Eq_m_a=eq_mno; Eq_b_a=eq_bno; break;
+case 1	: Pow_a=pow00; N_sk_a=n_sk00; Kone_a=kone00; S_sk_a=s_sk00; Eq_m_a=eq_m00; Eq_b_a=eq_b00; break;
+case 2	: Pow_a=pow01; N_sk_a=n_sk01; Kone_a=kone01; S_sk_a=s_sk01; Eq_m_a=eq_m01; Eq_b_a=eq_b01; break;
+case 3	: Pow_a=pow02; N_sk_a=n_sk02; Kone_a=kone02; S_sk_a=s_sk02; Eq_m_a=eq_m02; Eq_b_a=eq_b02; break;
+case 4	: Pow_a=pow03; N_sk_a=n_sk03; Kone_a=kone03; S_sk_a=s_sk03; Eq_m_a=eq_m03; Eq_b_a=eq_b03; break;
+case 5	: Pow_a=pow04; N_sk_a=n_sk04; Kone_a=kone04; S_sk_a=s_sk04; Eq_m_a=eq_m04; Eq_b_a=eq_b04; break;
+case 6	: Pow_a=pow05; N_sk_a=n_sk05; Kone_a=kone05; S_sk_a=s_sk05; Eq_m_a=eq_m05; Eq_b_a=eq_b05; break;
+case 7	: Pow_a=pow06; N_sk_a=n_sk06; Kone_a=kone06; S_sk_a=s_sk06; Eq_m_a=eq_m06; Eq_b_a=eq_b06; break;
+case 8	: Pow_a=pow07; N_sk_a=n_sk07; Kone_a=kone07; S_sk_a=s_sk07; Eq_m_a=eq_m07; Eq_b_a=eq_b07; break;
+case 9	: Pow_a=pow08; N_sk_a=n_sk08; Kone_a=kone08; S_sk_a=s_sk08; Eq_m_a=eq_m08; Eq_b_a=eq_b08; break;
+case 10	: Pow_a=pow09; N_sk_a=n_sk09; Kone_a=kone09; S_sk_a=s_sk09; Eq_m_a=eq_m09; Eq_b_a=eq_b09; break;
+case 11	: Pow_a=pow10; N_sk_a=n_sk10; Kone_a=kone10; S_sk_a=s_sk10; Eq_m_a=eq_m10; Eq_b_a=eq_b10; break;
+case 12	: Pow_a=pow11; N_sk_a=n_sk11; Kone_a=kone11; S_sk_a=s_sk11; Eq_m_a=eq_m11; Eq_b_a=eq_b11; break;
+case 13	: Pow_a=pow12; N_sk_a=n_sk12; Kone_a=kone12; S_sk_a=s_sk12; Eq_m_a=eq_m12; Eq_b_a=eq_b12; break;
+case 14	: Pow_a=pow13; N_sk_a=n_sk13; Kone_a=kone13; S_sk_a=s_sk13; Eq_m_a=eq_m13; Eq_b_a=eq_b13; break;
+case 15	: Pow_a=pow14; N_sk_a=n_sk14; Kone_a=kone14; S_sk_a=s_sk14; Eq_m_a=eq_m14; Eq_b_a=eq_b14; break;
+case 16	: Pow_a=pow15; N_sk_a=n_sk15; Kone_a=kone15; S_sk_a=s_sk15; Eq_m_a=eq_m15; Eq_b_a=eq_b15; break;
+case 17	: Pow_a=pow16; N_sk_a=n_sk16; Kone_a=kone16; S_sk_a=s_sk16; Eq_m_a=eq_m16; Eq_b_a=eq_b16; break;
+case 18	: Pow_a=pow17; N_sk_a=n_sk17; Kone_a=kone17; S_sk_a=s_sk17; Eq_m_a=eq_m17; Eq_b_a=eq_b17; break;
+case 19	: Pow_a=pow18; N_sk_a=n_sk18; Kone_a=kone18; S_sk_a=s_sk18; Eq_m_a=eq_m18; Eq_b_a=eq_b18; break;
+case 20	: Pow_a=pow19; N_sk_a=n_sk19; Kone_a=kone19; S_sk_a=s_sk19; Eq_m_a=eq_m19; Eq_b_a=eq_b19; break;
+case 21	: Pow_a=pow20; N_sk_a=n_sk20; Kone_a=kone20; S_sk_a=s_sk20; Eq_m_a=eq_m20; Eq_b_a=eq_b20; break;
+case 22	: Pow_a=pow21; N_sk_a=n_sk21; Kone_a=kone21; S_sk_a=s_sk21; Eq_m_a=eq_m21; Eq_b_a=eq_b21; break;
+case 23	: Pow_a=pow22; N_sk_a=n_sk22; Kone_a=kone22; S_sk_a=s_sk22; Eq_m_a=eq_m22; Eq_b_a=eq_b22; break;
+case 24	: Pow_a=pow23; N_sk_a=n_sk23; Kone_a=kone23; S_sk_a=s_sk23; Eq_m_a=eq_m23; Eq_b_a=eq_b23; break;
+case 25	: Pow_a=pow24; N_sk_a=n_sk24; Kone_a=kone24; S_sk_a=s_sk24; Eq_m_a=eq_m24; Eq_b_a=eq_b24; break;
+case 26	: Pow_a=pow25; N_sk_a=n_sk25; Kone_a=kone25; S_sk_a=s_sk25; Eq_m_a=eq_m25; Eq_b_a=eq_b25; break;
+default	: Pow_a=powno; N_sk_a=n_skno; Kone_a=koneno; S_sk_a=s_skno; Eq_m_a=eq_mno; Eq_b_a=eq_bno; break;
+};
+switch(document.form1.style2.selectedIndex){
+case 0	: Pow_b=powno; N_sk_b=n_skno; Kone_b=koneno; S_sk_b=s_skno; Eq_m_b=eq_mno; Eq_b_b=eq_bno; break;
+case 1	: Pow_b=pow00; N_sk_b=n_sk00; Kone_b=kone00; S_sk_b=s_sk00; Eq_m_b=eq_m00; Eq_b_b=eq_b00; break;
+case 2	: Pow_b=pow01; N_sk_b=n_sk01; Kone_b=kone01; S_sk_b=s_sk01; Eq_m_b=eq_m01; Eq_b_b=eq_b01; break;
+case 3	: Pow_b=pow02; N_sk_b=n_sk02; Kone_b=kone02; S_sk_b=s_sk02; Eq_m_b=eq_m02; Eq_b_b=eq_b02; break;
+case 4	: Pow_b=pow03; N_sk_b=n_sk03; Kone_b=kone03; S_sk_b=s_sk03; Eq_m_b=eq_m03; Eq_b_b=eq_b03; break;
+case 5	: Pow_b=pow04; N_sk_b=n_sk04; Kone_b=kone04; S_sk_b=s_sk04; Eq_m_b=eq_m04; Eq_b_b=eq_b04; break;
+case 6	: Pow_b=pow05; N_sk_b=n_sk05; Kone_b=kone05; S_sk_b=s_sk05; Eq_m_b=eq_m05; Eq_b_b=eq_b05; break;
+case 7	: Pow_b=pow06; N_sk_b=n_sk06; Kone_b=kone06; S_sk_b=s_sk06; Eq_m_b=eq_m06; Eq_b_b=eq_b06; break;
+case 8	: Pow_b=pow07; N_sk_b=n_sk07; Kone_b=kone07; S_sk_b=s_sk07; Eq_m_b=eq_m07; Eq_b_b=eq_b07; break;
+case 9	: Pow_b=pow08; N_sk_b=n_sk08; Kone_b=kone08; S_sk_b=s_sk08; Eq_m_b=eq_m08; Eq_b_b=eq_b08; break;
+case 10	: Pow_b=pow09; N_sk_b=n_sk09; Kone_b=kone09; S_sk_b=s_sk09; Eq_m_b=eq_m09; Eq_b_b=eq_b09; break;
+case 11	: Pow_b=pow10; N_sk_b=n_sk10; Kone_b=kone10; S_sk_b=s_sk10; Eq_m_b=eq_m10; Eq_b_b=eq_b10; break;
+case 12	: Pow_b=pow11; N_sk_b=n_sk11; Kone_b=kone11; S_sk_b=s_sk11; Eq_m_b=eq_m11; Eq_b_b=eq_b11; break;
+case 13	: Pow_b=pow12; N_sk_b=n_sk12; Kone_b=kone12; S_sk_b=s_sk12; Eq_m_b=eq_m12; Eq_b_b=eq_b12; break;
+case 14	: Pow_b=pow13; N_sk_b=n_sk13; Kone_b=kone13; S_sk_b=s_sk13; Eq_m_b=eq_m13; Eq_b_b=eq_b13; break;
+case 15	: Pow_b=pow14; N_sk_b=n_sk14; Kone_b=kone14; S_sk_b=s_sk14; Eq_m_b=eq_m14; Eq_b_b=eq_b14; break;
+case 16	: Pow_b=pow15; N_sk_b=n_sk15; Kone_b=kone15; S_sk_b=s_sk15; Eq_m_b=eq_m15; Eq_b_b=eq_b15; break;
+case 17	: Pow_b=pow16; N_sk_b=n_sk16; Kone_b=kone16; S_sk_b=s_sk16; Eq_m_b=eq_m16; Eq_b_b=eq_b16; break;
+case 18	: Pow_b=pow17; N_sk_b=n_sk17; Kone_b=kone17; S_sk_b=s_sk17; Eq_m_b=eq_m17; Eq_b_b=eq_b17; break;
+case 19	: Pow_b=pow18; N_sk_b=n_sk18; Kone_b=kone18; S_sk_b=s_sk18; Eq_m_b=eq_m18; Eq_b_b=eq_b18; break;
+case 20	: Pow_b=pow19; N_sk_b=n_sk19; Kone_b=kone19; S_sk_b=s_sk19; Eq_m_b=eq_m19; Eq_b_b=eq_b19; break;
+case 21	: Pow_b=pow20; N_sk_b=n_sk20; Kone_b=kone20; S_sk_b=s_sk20; Eq_m_b=eq_m20; Eq_b_b=eq_b20; break;
+case 22	: Pow_b=pow21; N_sk_b=n_sk21; Kone_b=kone21; S_sk_b=s_sk21; Eq_m_b=eq_m21; Eq_b_b=eq_b21; break;
+case 23	: Pow_b=pow22; N_sk_b=n_sk22; Kone_b=kone22; S_sk_b=s_sk22; Eq_m_b=eq_m22; Eq_b_b=eq_b22; break;
+case 24	: Pow_b=pow23; N_sk_b=n_sk23; Kone_b=kone23; S_sk_b=s_sk23; Eq_m_b=eq_m23; Eq_b_b=eq_b23; break;
+case 25	: Pow_b=pow24; N_sk_b=n_sk24; Kone_b=kone24; S_sk_b=s_sk24; Eq_m_b=eq_m24; Eq_b_b=eq_b24; break;
+case 26	: Pow_b=pow25; N_sk_b=n_sk25; Kone_b=kone25; S_sk_b=s_sk25; Eq_m_b=eq_m25; Eq_b_b=eq_b25; break;
+default	: Pow_b=powno; N_sk_b=n_skno; Kone_b=koneno; S_sk_b=s_skno; Eq_m_b=eq_mno; Eq_b_b=eq_bno; break;
+};
+switch(document.form1.style3.selectedIndex){
+case 0	: Pow_c=powno; N_sk_c=n_skno; Kone_c=koneno; S_sk_c=s_skno; Eq_m_c=eq_mno; Eq_b_c=eq_bno; break;
+case 1	: Pow_c=pow00; N_sk_c=n_sk00; Kone_c=kone00; S_sk_c=s_sk00; Eq_m_c=eq_m00; Eq_b_c=eq_b00; break;
+case 2	: Pow_c=pow01; N_sk_c=n_sk01; Kone_c=kone01; S_sk_c=s_sk01; Eq_m_c=eq_m01; Eq_b_c=eq_b01; break;
+case 3	: Pow_c=pow02; N_sk_c=n_sk02; Kone_c=kone02; S_sk_c=s_sk02; Eq_m_c=eq_m02; Eq_b_c=eq_b02; break;
+case 4	: Pow_c=pow03; N_sk_c=n_sk03; Kone_c=kone03; S_sk_c=s_sk03; Eq_m_c=eq_m03; Eq_b_c=eq_b03; break;
+case 5	: Pow_c=pow04; N_sk_c=n_sk04; Kone_c=kone04; S_sk_c=s_sk04; Eq_m_c=eq_m04; Eq_b_c=eq_b04; break;
+case 6	: Pow_c=pow05; N_sk_c=n_sk05; Kone_c=kone05; S_sk_c=s_sk05; Eq_m_c=eq_m05; Eq_b_c=eq_b05; break;
+case 7	: Pow_c=pow06; N_sk_c=n_sk06; Kone_c=kone06; S_sk_c=s_sk06; Eq_m_c=eq_m06; Eq_b_c=eq_b06; break;
+case 8	: Pow_c=pow07; N_sk_c=n_sk07; Kone_c=kone07; S_sk_c=s_sk07; Eq_m_c=eq_m07; Eq_b_c=eq_b07; break;
+case 9	: Pow_c=pow08; N_sk_c=n_sk08; Kone_c=kone08; S_sk_c=s_sk08; Eq_m_c=eq_m08; Eq_b_c=eq_b08; break;
+case 10	: Pow_c=pow09; N_sk_c=n_sk09; Kone_c=kone09; S_sk_c=s_sk09; Eq_m_c=eq_m09; Eq_b_c=eq_b09; break;
+case 11	: Pow_c=pow10; N_sk_c=n_sk10; Kone_c=kone10; S_sk_c=s_sk10; Eq_m_c=eq_m10; Eq_b_c=eq_b10; break;
+case 12	: Pow_c=pow11; N_sk_c=n_sk11; Kone_c=kone11; S_sk_c=s_sk11; Eq_m_c=eq_m11; Eq_b_c=eq_b11; break;
+case 13	: Pow_c=pow12; N_sk_c=n_sk12; Kone_c=kone12; S_sk_c=s_sk12; Eq_m_c=eq_m12; Eq_b_c=eq_b12; break;
+case 14	: Pow_c=pow13; N_sk_c=n_sk13; Kone_c=kone13; S_sk_c=s_sk13; Eq_m_c=eq_m13; Eq_b_c=eq_b13; break;
+case 15	: Pow_c=pow14; N_sk_c=n_sk14; Kone_c=kone14; S_sk_c=s_sk14; Eq_m_c=eq_m14; Eq_b_c=eq_b14; break;
+case 16	: Pow_c=pow15; N_sk_c=n_sk15; Kone_c=kone15; S_sk_c=s_sk15; Eq_m_c=eq_m15; Eq_b_c=eq_b15; break;
+case 17	: Pow_c=pow16; N_sk_c=n_sk16; Kone_c=kone16; S_sk_c=s_sk16; Eq_m_c=eq_m16; Eq_b_c=eq_b16; break;
+case 18	: Pow_c=pow17; N_sk_c=n_sk17; Kone_c=kone17; S_sk_c=s_sk17; Eq_m_c=eq_m17; Eq_b_c=eq_b17; break;
+case 19	: Pow_c=pow18; N_sk_c=n_sk18; Kone_c=kone18; S_sk_c=s_sk18; Eq_m_c=eq_m18; Eq_b_c=eq_b18; break;
+case 20	: Pow_c=pow19; N_sk_c=n_sk19; Kone_c=kone19; S_sk_c=s_sk19; Eq_m_c=eq_m19; Eq_b_c=eq_b19; break;
+case 21	: Pow_c=pow20; N_sk_c=n_sk20; Kone_c=kone20; S_sk_c=s_sk20; Eq_m_c=eq_m20; Eq_b_c=eq_b20; break;
+case 22	: Pow_c=pow21; N_sk_c=n_sk21; Kone_c=kone21; S_sk_c=s_sk21; Eq_m_c=eq_m21; Eq_b_c=eq_b21; break;
+case 23	: Pow_c=pow22; N_sk_c=n_sk22; Kone_c=kone22; S_sk_c=s_sk22; Eq_m_c=eq_m22; Eq_b_c=eq_b22; break;
+case 24	: Pow_c=pow23; N_sk_c=n_sk23; Kone_c=kone23; S_sk_c=s_sk23; Eq_m_c=eq_m23; Eq_b_c=eq_b23; break;
+case 25	: Pow_c=pow24; N_sk_c=n_sk24; Kone_c=kone24; S_sk_c=s_sk24; Eq_m_c=eq_m24; Eq_b_c=eq_b24; break;
+case 26	: Pow_c=pow25; N_sk_c=n_sk25; Kone_c=kone25; S_sk_c=s_sk25; Eq_m_c=eq_m25; Eq_b_c=eq_b25; break;
+};
+};
+
+function calc(){
+check_style();
+with(document.form1){
+reason.value	 = Pow_a[0] + Pow_b[0] + Pow_c[0];
+reason_c.value	 = Pow_a[1] + Pow_b[1] + Pow_c[1];
+passion.value	 = Pow_a[2] + Pow_b[2] + Pow_c[2];
+passion_c.value	 = Pow_a[3] + Pow_b[3] + Pow_c[3];
+life.value		 = Pow_a[4] + Pow_b[4] + Pow_c[4];
+life_c.value	 = Pow_a[5] + Pow_b[5] + Pow_c[5];
+mundane.value	 = Pow_a[6] + Pow_b[6] + Pow_c[6];
+mundane_c.value	 = Pow_a[7] + Pow_b[7] + Pow_c[7];
+};
+};
+
+function n_skill_listup(){
+check_style();
+document.form1.normalskill.value = n_sk_list + Kone_a + "\r" + Kone_b + "\r" + Kone_c;
+};
+
+function n_skill_makeup(){
+check_style();
+document.form1.normalskill.value = mujoken + Kone_a + "\r" + Kone_b + "\r" + Kone_c +"\r\r" + N_sk_a + "\r\r" + N_sk_b + "\r\r" + N_sk_c;
+};
+
+function s_skill_listup(){
+check_style();
+document.form1.superskill.value = S_sk_a + "\r\r" + S_sk_b + "\r\r" + S_sk_c;
+};
+
+function check_mundane(){
+if(document.form1.mundane.value == ""){Eq_mujoken = mun_no};
+else if(document.form1.mundane.value == 0){Eq_mujoken = mun_0};
+else if(document.form1.mundane.value == 1){Eq_mujoken = mun_1};
+else if(document.form1.mundane.value == 2){Eq_mujoken = mun_2};
+else if(document.form1.mundane.value == 3){Eq_mujoken = mun_3};
+else if(document.form1.mundane.value == 4){Eq_mujoken = mun_4};
+else if(document.form1.mundane.value == 5){Eq_mujoken = mun_5};
+else if(document.form1.mundane.value == 6){Eq_mujoken = mun_6};
+else if(document.form1.mundane.value == 7){Eq_mujoken = mun_7};
+else if(document.form1.mundane.value == 8){Eq_mujoken = mun_8};
+else if(document.form1.mundane.value == 9){Eq_mujoken = mun_9};
+else if(document.form1.mundane.value >= 10 ){Eq_mujoken = mun_10};
+else Eq_mujoken = mun_no;
+}
+
+function equip_makeup(){
+check_style();
+check_mundane();
+document.form1.outfit.value = Eq_mujoken + Eq_m_a + "\r\r" + Eq_m_b + "\r\r" + Eq_m_c;
+
+};
+
+function equip_buildup(){
+check_style();
+check_mundane();
+document.form1.outfit.value = Eq_mujoken + Eq_b_a + "\r\r" + Eq_b_b + "\r\r" + Eq_b_c;
+};
+
