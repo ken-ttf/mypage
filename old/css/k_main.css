@@ -1,4 +1,4 @@
-@charset "Shift_JIS";
+@charset "UTF-8";
 
 /* ------------------------------------------------------------------
 	Main Section
@@ -10,7 +10,7 @@ body * {
 	font-weight:      inherit;
 	font-style:       inherit;
 	text-decoration:  inherit;
-	font-family:      "MS UI Gothic", "ÇlÇr ÇoÉSÉVÉbÉN", "Osaka", "sans-serif";
+	font-family:      "MS UI Gothic", "Ôº≠Ôº≥ Ôº∞„Ç¥„Ç∑„ÉÉ„ÇØ", "Osaka", "sans-serif";
 }
 
 body {
@@ -95,7 +95,7 @@ h6 {
 h6:before {
 	color:            inherit;
 	background-color: inherit;
-	content:          "Å°";
+	content:          "‚ñ†";
 	
 }
 
@@ -122,7 +122,7 @@ q {
 	padding:          0;
 	color:            #C66;
 	background-color: Transparent;
-	quotes:           "Åg" "Åh" "Åu" "Åv";
+	quotes:           "‚Äú" "‚Äù" "„Äå" "„Äç";
 }
 
 q:before {
