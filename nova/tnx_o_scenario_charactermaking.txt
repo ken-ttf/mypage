@@ -1,0 +1,525 @@
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／フリーランスの探偵</td>	<td>&spades; ソニア</td></tr>
+	<tr><td>②トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／フリーランスの記者</td>	<td>&diams; ファルケ・シュレーゲル</td></tr>
+	<tr><td>③カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カタナ、カブトワリなど／フリーランスの荒事屋</td>	<td>&clubs; キックス</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; 河渡白夜</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; キックス</td></tr>
+
+
+-----
+
+
+X	TNX	1	Sound of Silence
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／フリーランスの探偵</td>	<td>&spades; ソニア</td></tr>
+	<tr><td>②トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／フリーランスの記者</td>	<td>&diams; ファルケ・シュレーゲル</td></tr>
+	<tr><td>③カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カタナ、カブトワリなど／フリーランスの荒事屋</td>	<td>&clubs; キックス</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; 河渡白夜</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; キックス</td></tr>
+
+X	TNX	2	見上げてごらん、夜空の星を
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／フリーランスの探偵</td>	<td>&clubs; 二宮里志</td></tr>
+	<tr><td>②トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／マリオネットの記者</td>	<td>&clubs; 二宮クリス</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&spades; ブルース・ブラッドリー</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; カーロス・マウリシオ・ダ・シルバ</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カタナ、カブトワリなど／フリーランスの荒事屋</td>	<td>&diams; ドーリス</td></tr>
+
+X	TOS	1	Chimera Heart
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／フリーランスの探偵</td>	<td>&spades; フェリシア</td></tr>
+	<tr><td>②バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>バサラ／フリーランスの退魔師</td>	<td>&diams; 吹雪（フブキ）</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンドの捜査官</td>	<td>&spades; ジャンヌ</td></tr>
+	<tr><td>④アヤカシ</td>	<td>鋼の人狼（『TOS』P50）</td>	<td>アヤカシ／サロン・ドルファンの執行人</td>	<td>&diams; アルドラ・ドルファン</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; 藤咲竜二</td></tr>
+
+X	TOS	2	Hopeless Runaway
+	<tr><td>①カゼ</td>	<td>災厄のカゼ（『TNX』P92）</td>	<td>カゼ／運び屋</td>	<td>&spades; 岩城兵庫（いわき・ひょうご）</td></tr>
+	<tr><td>②ヒルコ</td>	<td>内なる怪物（『TOS』P52）</td>	<td>ヒルコ／ヒルコ街の住人</td>	<td>&hearts; アルカ</td></tr>
+	<tr><td>③ニューロ</td>	<td>ドローンマスター（『TOS』P54）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; 長門玄馬（ながと・げんば）</td></tr>
+	<tr><td>④カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カタナ／フリーランスの殺し屋</td>	<td>&diams; 長門玄馬（ながと・げんば）</td></tr>
+	<tr><td>⑤アヤカシ</td>	<td>鋼の人狼（『TOS』P50）</td>	<td>アヤカシ／サロン・ドルファンの一員</td>	<td>&spades; アルドラ・ドルファン</td></tr>
+
+X	CTL	1	Beyond the Black Night
+	<tr><td>①カブト</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カブト／フリーランスの護衛</td>	<td>&spades; サクヤ</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ケルビムの捜査官</td>	<td>&diams; イレーネ・ロイズ</td></tr>
+	<tr><td>③バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>バサラ／剣十字修道会の退魔師</td>	<td>&spades; ミュー</td></tr>
+	<tr><td>④アヤカシ</td>	<td>鋼の人狼（『TOS』P50）</td>	<td>アヤカシ／一匹狼のアヤカシ</td>	<td>&diams; コッペリア</td></tr>
+	<tr><td>⑤マヤカシ</td>	<td>ニューロエイジの魔術師（『TNX』P100）</td>	<td>マヤカシ／フリーランスの魔術師</td>	<td>&clubs; 御門忍</td></tr>
+
+X	CTL	2	Cross The Line
+	<tr><td>①クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工後方処理課</td>	<td>&clubs; メロディ</td></tr>
+	<tr><td>②ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; 『①クグツ』</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ケルビムの捜査官</td>	<td>&diams; アイコンブレイカー</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／マリオネットの記者</td>	<td>&diams; メロディ</td></tr>
+	<tr><td>⑤カブト</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カブト／フリーランスのボディガード</td>	<td>&diams; 『②ニューロ』</td></tr>
+
+X	CHM	1	BLAKK BOX アクト1 『過去からの告発者』
+	<tr><td>①カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>なし／フリーランスの荒事屋</td>	<td>&diams; 美門忍</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工査察部</td>	<td>&diams; 美門忍</td></tr>
+	<tr><td>③ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&spades; 乾直之</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンドの隊員</td>	<td>&clubs; 美門忍</td></tr>
+	<tr><td>⑤バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>なし／フリーランスの超常能力者</td>	<td>&hearts; 御門忍</td></tr>
+
+X	CHM	2	BLAKK BOX アクト2 『好奇心は猫を殺す』
+	<tr><td>①</td>	<td></td>	<td>／アクト1で忍の保護を請け負ったキャスト</td>	<td>&hearts; 御門忍</td></tr>
+	<tr><td>②</td>	<td></td>	<td>／アクト1に参加したキャスト</td>	<td>さまざま</td>	<td>御門忍</td></tr>
+	<tr><td>③</td>	<td></td>	<td>／このアクトから参加するキャスト</td>	<td>&diams; 御門忍</td></tr>
+
+X	CHM	3	BLAKK BOX アクト3 『さまよえるオランダ人』
+	<tr><td>①</td>	<td></td>	<td>／</td>	<td>自由選択</td>	<td>御門忍</td></tr>
+
+X	BTD	1	ファイブカード!!
+	<tr><td>①カブキ</td>	<td>地上の天使（『BTD』P59）</td>	<td>カブキ／フリーのギャンブラー</td>	<td>&spades; ジェイク・ジョンソン</td></tr>
+	<tr><td>②ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／ハッカー</td>	<td>&diams; 河渡白夜</td></tr>
+	<tr><td>③カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>カブト／フリーのボディガード</td>	<td>&diams; ジェイク・ジョンソン</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド</td>	<td>&diams; ジェイク・ジョンソン</td></tr>
+	<tr><td>⑤レッガー</td>	<td>任侠戦士（『TNX』P97）</td>	<td>なし／河渡組の構成員</td>	<td>&diams; 『②ニューロ』</td></tr>
+
+X	BTD	2	ビハインド・ザ・ダーク
+	<tr><td>①ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランス、リンダ・リンクスと友人</td>	<td>&clubs; リンダ・リンクス</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド</td>	<td>&spades; アラン・ライナーズ</td></tr>
+	<tr><td>③カブト</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カブト／ボディガード、鈴木太郎から依頼される</td>	<td>&diams; 鈴木太郎</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／マリオネットの記者</td>	<td>&diams; 結城あや</td></tr>
+	<tr><td>⑤バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>なし／剣十字修道会</td>	<td>&diams; リンダ・リンクス</td></tr>
+
+X	HDB	1	トゥモロー・ファクトリー
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／N.I.K.の探偵</td>	<td>&diams; クインティア</td>	<td>ワークス：N.I.K.
+	<tr><td>②ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>ニューロ／ネヴァーランドの住人</td>	<td>&hearts; クガト</td>	<td>ワークス：ネヴァーランド
+	<tr><td>③クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工後方処理課</td>	<td>&diams; 千早雅之</td>	<td>ワークス：千早重工
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; レイ</td>	<td>ワークス：ブラックハウンド
+	<tr><td>⑤レッガー</td>	<td>任侠戦士（『HDB』P167）</td>	<td>レッガー／河渡組の構成員</td>	<td>&spades; 河渡白夜</td>	<td>ワークス：河渡連合
+
+X	HDB	2	ヘヴン・ダウンビロウ
+	<tr><td>①トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／フリーの記者</td>	<td>&spades; 稲垣光平</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>指定なし／稲垣から候補者の調査を依頼される</td>	<td>&clubs; パトリシア有栖</td></tr>
+	<tr><td>③クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&diams; 佐久間雅臣</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド</td>	<td>&diams; 稲垣光平</td></tr>
+	<tr><td>⑤ミストレス</td>	<td>世界の支配者（『HDB』P166）</td>	<td>指定なし／稲垣の選挙参謀</td>	<td>&diams; 稲垣光平</td></tr>
+
+X	ATS	1	Raid from The Future
+	<tr><td>①コモン</td>	<td>一般人（『ATS』P40）</td>	<td>指定なし／新星帝都大学高等部の生徒</td>	<td>&spades; 槙野リナ</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／探偵</td>	<td>&diams; トレス・サイファー</td></tr>
+	<tr><td>③カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>カブト／ボディガード</td>	<td>&diams; 『①コモン』</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; レイ</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／ウェブのゲーマー</td>	<td>&spades; ハイロード</td></tr>
+
+X	ATS	2	Heaven's On Fire
+	<tr><td>①イブキ</td>	<td>ライフセイバー（『ATS』P38）</td>	<td>イブキ／スカイハート隊員</td>	<td>&spades; 石橋俊造（いしばし・としぞう）</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド隊員</td>	<td>&spades; “暴走課長”レイ</td></tr>
+	<tr><td>③レッガー</td>	<td>任侠戦士（『HDB』P167）</td>	<td>指定なし／銀行強盗</td>	<td>&diams; チェッキー・フジヤマ</td></tr>
+	<tr><td>④コモン</td>	<td>一般人（『ATS』P40）</td>	<td>指定なし／パーティの参加者</td>	<td>&spades; ポーラ・マッコイ</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&clubs; 『①イブキ』</td></tr>
+
+X	ASC	1	コールドケース・ヴィレッジ
+	<tr><td>①アヤカシ</td>	<td>鋼の人狼</td>	<td>アヤカシ／獣の一族</td>	<td>&hearts; リュカオン</td></tr>
+	<tr><td>②バサラ</td>	<td>エクソシスト</td>	<td>バサラ／聖母殿の退魔師</td>	<td>&spades; ブラウン司祭</td></tr>
+	<tr><td>③アヤカシ</td>	<td>愛を知った天使</td>	<td>アヤカシ／20年以上前、人間に助けられた</td>	<td>&diams; マーガレット</td></tr>
+	<tr><td>④イヌ</td>	<td>監察医</td>	<td>指定なし／ケルビムの捜査官</td>	<td>&clubs; アレン村長</td></tr>
+	<tr><td>⑤アヤカシ</td>	<td>闇の交渉人</td>	<td>アヤカシ／夜の一族</td>	<td>&spades; “始祖”ドラキュラ</td></tr>
+
+X	ASC	2	ティタノマキア
+	<tr><td>①アテナ</td>	<td>知恵と戦の女神</td>	<td>ウツワ／女神アテナのウツワ</td>	<td>&hearts; “ゼウス”神宮師旺（じんぐう・しおう）</td></tr>
+	<tr><td>②アポロン</td>	<td></td>	<td>ウツワ／太陽神アポロンのウツワ</td>	<td>&diams; プロメテウス</td></tr>
+	<tr><td>③ポセイドン</td>	<td></td>	<td>ウツワ／海神ポセイドンのウツワ</td>	<td>&spades; “ゼウス”神宮師旺（じんぐう・しおう）</td></tr>
+	<tr><td>④アルテミス</td>	<td></td>	<td>ウツワ／女神アルテミスのウツワ</td>	<td>&clubs; “ヘルメス”エリオット・リン</td></tr>
+	<tr><td>⑤ヘラクレス</td>	<td></td>	<td>ウツワ／半神半人の英雄ヘラクレスのウツワ</td>	<td>&spades; プロメテウス</td></tr>
+
+X	GF18-1	1	Murder City
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／フリーランスの探偵</td>	<td>&clubs; 霧島マサト</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&diams; “1024”キャサリン・ブックマーカー</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&hearts; “クワイエット”レオン・ライム</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／フリーランスの記者</td>	<td>&hearts; 襲撃者</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カタナ／フリーランスの荒事屋</td>	<td>&diams; “クワイエット”レオン・ライム</td></tr>
+
+X	GF18-6	1	Land of the Free
+	<tr><td>①カゼ</td>	<td>災厄のカゼ（『TNX』P92）</td>	<td>カゼ／フリーランスの運び屋</td>	<td>&spades; シオン</td></tr>
+	<tr><td>②カブト</td>	<td>現代の騎士（『TNX』P90）</td>	<td>カブト／フリーランスのボディガード</td>	<td>&spades; エウラリア</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ケルビムの捜査官</td>	<td>&diams; 佐波誠（さなみ・まこと）</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／マリオネットの特派員</td>	<td>&spades; 結城あや</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／ハッカー。『②カブト』の相棒</td>	<td>&spades; 『②カブト』</td></tr>
+
+X	GF22-1	1	Beyond the Deep Space
+	<tr><td>①エトランゼ</td>	<td>宇宙人（『ATS』P44）</td>	<td>エトランゼ／宇宙警察機構の捜査官</td>	<td>&diams; “ヒアデス星団人”ゼラン</td></tr>
+	<tr><td>②コモン</td>	<td>一般人（『ATS』P40）</td>	<td>コモン／目撃者</td>	<td>&clubs; 宇宙人ザリオ</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; 稲垣光平</td></tr>
+	<tr><td>④カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／河渡連合の荒事屋</td>	<td>&hearts; 河渡白夜</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／フリーランス</td>	<td>&spades; 『②コモン』</td></tr>
+
+X	GF24-2	1	ステアウェイ・トゥ・ヘブン
+	<tr><td>①</td>	<td></td>	<td>／</td>	<td>&diams; アベラルド・ビーンスターク</td></tr>
+
+X	GF26-5	1	What you seeked
+	<tr><td>①フェイト</td>	<td>元浄化派の探偵（『NAN』P14）</td>	<td>なし／元真教浄化派</td>	<td>&spades; ブラックポーレン</td></tr>
+	<tr><td>②クグツ</td>	<td>ミカヅチ部隊（『NAN』P12）</td>	<td>なし／日本軍</td>	<td>&spades; 和泉沙季</td></tr>
+	<tr><td>③ニューロ</td>	<td>天才経営者（『NAN』P16）</td>	<td>ニューロ／指定なし</td>	<td>&clubs; ミミ</td></tr>
+	<tr><td>④カブト</td>	<td>ボディガード（『NAN』P31）</td>	<td>なし／指定なし</td>	<td>&diams; アメリア・アインスブルク</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『NAN』P22）</td>	<td>イヌ／ブラックハウンド</td>	<td>&clubs; ドクターYF</td></tr>
+
+X	GFEX-29	1	Seven Wanders in College
+	<tr><td>①ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／高等部の学生</td>	<td>&clubs; マリーシア</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／高等部の学生</td>	<td>&spades; 稲垣みのり</td></tr>
+	<tr><td>③カブト</td>	<td>現代の騎士（『TNX』P90）</td>	<td>なし／高等部の学生</td>	<td>&spades; 仮面の生徒</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／報道部の部員</td>	<td>&diams; セブンワンダーズ</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>なし／高等部の風紀委員</td>	<td>&spades; 美門輝星</td></tr>
+
+X	GFEX-29	2	Blast from the Past
+	<tr><td>①イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ナイトハウンドの捜査官</td>	<td>&spades; フレデリク</td></tr>
+	<tr><td>②アヤカシ</td>	<td>鋼の人狼（『TOS』P50）</td>	<td>アヤカシ／一匹狼のアヤカシ</td>	<td>&spades; コッペリア</td></tr>
+	<tr><td>③ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランスのハッカー</td>	<td>&diams; カーロス</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／フリーランスの記者</td>	<td>&diams; ファイアキッカー</td></tr>
+	<tr><td>⑤バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>バサラ／聖母殿の退魔師</td>	<td>&spades; ミュー</td></tr>
+
+X	GFEX-33	1	ニューロエイジ・シンデレラ・ストーリー
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／探偵</td>	<td>&clubs; 秋野瀬ヒロコ</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; メモリ</td></tr>
+	<tr><td>③レッガー</td>	<td>任侠戦士（『HDB』P167）</td>	<td>レッガー／河渡連合の構成員</td>	<td>&diams; 河渡白夜</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／N◎VAスポの報道記者</td>	<td>&diams; 九条政次</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>カタナ／フリーランスの殺し屋</td>	<td>&diams; ドーリス</td></tr>
+
+X	GFEX-36	1	Asgard Crisis
+	<tr><td>①イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／SSSの捜査員</td>	<td>&diams; ブレイカーX</td></tr>
+	<tr><td>②カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>カタナ／アスガルドの特別工作員</td>	<td>&hearts; 『①イヌ』</td></tr>
+	<tr><td>③ニューロ</td>	<td>ドローンマスター（『HDB』P54）</td>	<td>ニューロ／フリーランス</td>	<td>&spades; フリッグ</td></tr>
+	<tr><td>④クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工後方処理課</td>	<td>&diams; “黄昏”のスィズマ</td></tr>
+	<tr><td>⑤カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>カブト／アスガルドの囚人</td>	<td>&diams; ステラ・デラ・セラ</td></tr>
+
+X	SSSX01	1	イン・トゥ・ザ・ナイト
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／探偵</td>	<td>&spades; 真中紗夜（まなか・さや）</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早の社員</td>	<td>&diams; ヘンリー・イシカワ</td></tr>
+	<tr><td>③トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／記者</td>	<td>&spades; 結城あや</td></tr>
+	<tr><td>④イヌ</td>	<td>遊撃記者（『TNX』P88）</td>	<td>イヌ／ブラックハウンド隊員</td>	<td>&diams; 長谷部万力</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／フリーランス</td>	<td>&diams; 『②クグツ』</td></tr>
+
+X	SSSX01	2	アフター・デイブレイク
+	<tr><td>①クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早の社員</td>	<td>&diams; エイプリル・エドワーズ</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／探偵</td>	<td>&spades; 真中紗夜（まなか・さや）</td></tr>
+	<tr><td>③ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／フリーランス</td>	<td>&clubs; カーロス・マウリシオ・ダ・シルバ</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド隊員</td>	<td>&spades; メタルゴア</td></tr>
+	<tr><td>⑤トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／記者</td>	<td>&spades; エイプリル・エドワーズ</td></tr>
+
+X	SSSX01	3	ナイト・ムーヴズ
+	<tr><td>①フェイト</td>	<td></td>	<td>フェイト／探偵</td>	<td>&spades; 真中紗夜（まなか・さや）</td></tr>
+	<tr><td>②クグツ</td>	<td></td>	<td>クグツ／千早の社員</td>	<td>&diams; 霧野修静（きりの・しゅうせい）</td></tr>
+	<tr><td>③トーキー</td>	<td></td>	<td>トーキー／記者</td>	<td>&spades; 結城あや</td></tr>
+	<tr><td>④イヌ</td>	<td></td>	<td>イヌ／ブラックハウンド隊員</td>	<td>&diams; ダビッド・ハイド</td></tr>
+	<tr><td>⑤ニューロ</td>	<td></td>	<td>指定なし／フリーランス</td>	<td>&diams; 『②クグツ』</td></tr>
+
+X	SSSX02	1	悪魔のいる天国
+	<tr><td>①カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>指定なし／“ブルズアイ”とともに参加した強奪者</td>	<td>&spades; “ブルズアイ”</td></tr>
+	<tr><td>②ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／辰見光也に集められた強奪者</td>	<td>&diams; 辰見光也（たつみ・こうや）</td></tr>
+	<tr><td>③カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／辰見光也の計画に加わった強奪者</td>	<td>&diams; 辰見光也（たつみ・こうや）</td></tr>
+	<tr><td>④レッガー</td>	<td>任侠戦士（『TNX』P97）</td>	<td>指定なし／河渡白夜経由で参加した強奪者</td>	<td>&diams; 河渡白夜</td></tr>
+	<tr><td>⑤カブトワリ</td>	<td>災厄のカゼ（『TNX』P92）</td>	<td>指定なし／辰見光也とともに現金を奪った強奪者</td>	<td>&diams; 辰見光也（たつみ・こうや）</td></tr>
+
+X	SSSX02	2	エスケープ・フロム・イワサキ
+	<tr><td>①クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／イワサキのクグツ</td>	<td>&diams; 服部半蔵</td></tr>
+	<tr><td>②ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>ニューロ／フリーランス。イワサキのAIを脱走させる</td>	<td>&clubs; AI少女“シー”</td></tr>
+	<tr><td>③エグゼク</td>	<td>世界の支配者（『TNX』P94）</td>	<td>エグゼク／千早。イワサキのAIを追う</td>	<td>&diams; 『②ニューロ』</td></tr>
+	<tr><td>④カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／千早に雇われる</td>	<td>&diams; 『③エグゼク』</td></tr>
+
+X	SSSX02	3	Showdown!
+	<tr><td>①カタナ</td>	<td></td>	<td>カタナ／フリーランスの荒事師</td>	<td>&diams; アイビー</td></tr>
+	<tr><td>②カブト</td>	<td></td>	<td>カブト／フリーランスのボディガード</td>	<td>&diams; アイビー</td></tr>
+	<tr><td>③クロマク</td>	<td></td>	<td>クロマク／ストリートに利権を持つフィクサー</td>	<td>&diams; アイビー</td></tr>
+
+X	SSSX03	1	ヴァンパイア・フロム・ナイト
+	<tr><td>①バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>指定なし／吸血鬼を追う退魔師</td>	<td>&diams; “ウラルの黒い霧”ヴィクトル</td></tr>
+	<tr><td>②アヤカシ</td>	<td>鋼の人狼（『TOS』P50）</td>	<td>指定なし／サロン・ドルファンの執行者</td>	<td>&spades; アルドラ・ドルファン</td></tr>
+	<tr><td>③ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／指定なし。羽澄優衣が近所に住んでいる</td>	<td>&clubs; 羽澄優衣（はすみ・ゆい）</td></tr>
+	<tr><td>④カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／フリーランス。剣十字修道会の依頼を受ける</td>	<td>&diams; 羽澄優衣（はすみ・ゆい）</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>指定なし／ブラックハウンド機動捜査課</td>	<td>&diams; ”ガラザキ“唐崎龍真（からさき・たつま）</td></tr>
+
+X	SSSX03	2	トーキョーN◎VA捧げます
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／探偵。稲垣光平の知り合い</td>	<td>&spades; “帝王”稲垣光平</td></tr>
+	<tr><td>②バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>指定なし／退魔師</td>	<td>&spades; “小さき神”</td></tr>
+	<tr><td>③イヌ</td>	<td>監察医（『BTD』P60）</td>	<td>指定なし／ナイトハウンド隊員</td>	<td>&spades; ジャンヌ・デファンス・ヴェイユ</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／フリーランス。N◎VA行政府から依頼される</td>	<td>&diams; 磯良詠華（いそら・えいか）</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／フリーランス。剣十字修道会から依頼される</td>	<td>&diams; “帝王”稲垣光平</td></tr>
+
+X	SSSX03	3	魔王を継ぐモノ
+	<tr><td>①アヤカシ</td>	<td></td>	<td>アヤカシ／魔会の魔王候補</td>	<td>&spades; カイン</td></tr>
+	<tr><td>②バサラ</td>	<td></td>	<td>指定なし／退魔師</td>	<td>&diams; “伝説の魔王”ヴォルザード</td></tr>
+	<tr><td>③フェイト</td>	<td></td>	<td>フェイト／フリーの探偵</td>	<td>&spades; アルドラ・ドルファン</td></tr>
+	<tr><td>④イヌ</td>	<td></td>	<td>指定なし／ナイトハウンド隊員</td>	<td>&diams; ジャンヌ・デファンス・ヴェイユ</td></tr>
+	<tr><td>⑤カタナ</td>	<td></td>	<td>指定なし／フリーランス。剣十字修道会から依頼を受ける</td>	<td>&diams; “魔王候補者”カイン</td></tr>
+
+X	SSSX04	1	セイム・オールド・ストーリー
+	<tr><td>①カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>指定なし／ボディガード</td>	<td>&spades; 南野紫音（みなみの・しおん）</td></tr>
+	<tr><td>②ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／フリーランス</td>	<td>&diams; アメリア・アインスブルク</td></tr>
+	<tr><td>③レッガー</td>	<td>任侠戦士（『TNX』P97）</td>	<td>指定なし／“プラチナムレイダー”の容疑者</td>	<td>&diams; 葛間迅介（くずま・じんすけ）</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>指定なし／ブラックハウンド隊員</td>	<td>&diams; レイ</td></tr>
+	<tr><td>⑤トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>指定なし／ジャーナリスト</td>	<td>&diams; 長谷部万力</td></tr>
+
+X	SSSX04	2	ゲーム・オブ・クリミナル
+	<tr><td>①カブト</td>	<td></td>	<td>／ボディガード</td>	<td>&diams; “プラチナムレイダー”</td></tr>
+	<tr><td>②ニューロ</td>	<td></td>	<td>／フリーランス</td>	<td>&spades; “アーティスト”</td></tr>
+	<tr><td>③レッガー</td>	<td></td>	<td>／“プラチナムレイダー”の容疑者</td>	<td>&diams; “プラチナムレイダー”</td></tr>
+	<tr><td>④イヌ</td>	<td></td>	<td>／ブラックハウンド隊員</td>	<td>&diams; 『③レッガー』</td></tr>
+	<tr><td>⑤トーキー</td>	<td></td>	<td>／ジャーナリスト</td>	<td>&diams; “アーティスト”</td></tr>
+
+X	SSSX04	3	プラチナムレイダー
+	<tr><td>①カブト</td>	<td></td>	<td>／ボディガード</td>	<td>&spades; “パープルミスト”</td></tr>
+	<tr><td>②ニューロ</td>	<td></td>	<td>／フリーランス</td>	<td>&diams; “プラチナムレイダー”</td></tr>
+	<tr><td>③レッガー</td>	<td></td>	<td>／“プラチナムレイダー”の容疑者</td>	<td>&clubs; “パープルミスト”</td></tr>
+	<tr><td>④イヌ</td>	<td></td>	<td>／ブラックハウンド隊員</td>	<td>&diams; “パープルミスト”</td></tr>
+	<tr><td>⑤トーキー</td>	<td></td>	<td>／ジャーナリスト</td>	<td>&spades; “プラチナムレイダー”</td></tr>
+
+X	SSSX05	1	フォロー・ユー、フォロー・ミー
+	<tr><td>①カブキ</td>	<td>地上の天使（『BTD』P59）</td>	<td>指定なし／N◎VA芸能界のスター</td>	<td>&clubs; キュリア・ベルベットレモン</td></tr>
+	<tr><td>②カブト</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／『①カブキ』のボディガード</td>	<td>&diams; トモカズ・ユーコ・三枝（さえぐさ）</td></tr>
+	<tr><td>③トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／フリーランスの記者</td>	<td>&spades; 結城あや</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>指定なし／ブラックハウンド機動捜査課</td>	<td>&diams; 蛭目田（ひるめだ）キョーヘイ</td></tr>
+	<tr><td>⑤クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工後方処理課第三班。CMEから依頼を受ける</td>	<td>&diams; トモカズ・ユーコ・三枝（さえぐさ）</td></tr>
+
+X	SSSX05	2	スーパーフレーズ・レジェンドファイブ
+	<tr><td>①カブキ</td>	<td>地上の天使（『BTD』P59）</td>	<td>指定なし／ロックシンガーなど</td>	<td>&spades; アマデウス</td></tr>
+	<tr><td>②カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／荒事屋。最高の曲を聴きたくなる</td>	<td>&clubs; アマデウス</td></tr>
+	<tr><td>③カリスマ</td>	<td>闇の交渉人（『BTD』P62）</td>	<td>指定なし／レジェンドファイブを託される</td>	<td>&diams; アマデウス</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／記者。最高の曲を報道する</td>	<td>&spades; アマデウス</td></tr>
+	<tr><td>⑤クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工後方処理課第三班。CMEから依頼を受ける</td>	<td>&diams; アマデウス</td></tr>
+
+X	SSSX05	3	復讐の炎
+	<tr><td>①トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／才島猟河の後輩の記者</td>	<td>&spades; 才島猟河（さいじま・りょうが）</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵（『TNX』P82）</td>	<td>フェイト／探偵。人探しを依頼される</td>	<td>&diams; 才島由々美（さいじま・ゆゆみ）</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>指定なし／ブラックハウンド機動捜査課</td>	<td>&diams; “ジャッジヘル”</td></tr>
+	<tr><td>④カリスマ</td>	<td>闇の交渉人（『BTD』P62）</td>	<td>指定なし／レフティの捜査に極力する</td>	<td>&diams; レフティ</td></tr>
+	<tr><td>⑤カブキ</td>	<td>地上の天使（『BTD』P59）</td>	<td>指定なし／有名人。“ジャッジヘル”から裁きを告げられる</td>	<td>&clubs; “ジャッジヘル”</td></tr>
+
+X	SSSX06	1	クロッシングポイント
+	<tr><td>①イヌ</td>	<td>監察医（『BTD』P60）</td>	<td>指定なし／ブラックハウンド機動捜査課</td>	<td>&diams; ウェイン・音喜多（おときた）</td></tr>
+	<tr><td>②カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／ストリートの荒事屋。イライザから助けを求められる</td>	<td>&clubs; イライザ</td></tr>
+	<tr><td>③クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&clubs; トーラス</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『TNX』P88）</td>	<td>トーキー／依頼を受けるジャーナリスト</td>	<td>&diams; ウェイン・音喜多（おときた）</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>指定なし／ブラックハウンド機動捜査課</td>	<td>&diams; ウェイン・音喜多（おときた）</td></tr>
+
+X	SSSX06	2	黒い迷宮（ラビリンス）
+	<tr><td>①エグゼク</td>	<td>世界の支配者（『TNX』P94）</td>	<td>指定なし／犯罪に巻き込まれる千早重工の重役</td>	<td>&spades; 謎の声</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; 『①エグゼク』</td></tr>
+	<tr><td>③カタナ</td>	<td>現代の騎士（『TNX』P90）</td>	<td>指定なし／ストリートの荒事屋。仇を討ってほしいと依頼される</td>	<td>&spades; “ハイウェイ”ジェシー</td></tr>
+	<tr><td>④クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&diams; 小上紫乃</td></tr>
+	<tr><td>⑤ニューロ</td>	<td>ニューロキッズ（『TNX』P98）</td>	<td>指定なし／フリーランス。アメリア・アインスブルクの依頼を受ける</td>	<td>&diams; ミリオ</td></tr>
+
+X	SSSX06	3	巨悪討つべし
+	<tr><td>①イヌ</td>	<td></td>	<td>イヌ／特捜チームの隊員</td>	<td>&diams; 世良田幻蔵（せらた・げんぞう）</td></tr>
+	<tr><td>②イヌ</td>	<td></td>	<td>イヌ／特捜チームの隊員</td>	<td>&diams; 世良田幻蔵（せらた・げんぞう）</td></tr>
+	<tr><td>③イヌ</td>	<td></td>	<td>イヌ／特捜チームの隊員</td>	<td>&diams; 世良田幻蔵（せらた・げんぞう）</td></tr>
+	<tr><td>④イヌ</td>	<td></td>	<td>イヌ／特捜チームの隊員</td>	<td>&diams; 世良田幻蔵（せらた・げんぞう）</td></tr>
+	<tr><td>⑤イヌ</td>	<td></td>	<td>イヌ／特捜チームの隊員</td>	<td>&diams; 世良田幻蔵（せらた・げんぞう）</td></tr>
+
+X	SSSX07	1	ライトニングツアー THE AXLERATION
+	<tr><td>①カゼ</td>	<td>運び屋（『BTD』P55）</td>	<td>カゼ／北米大統領と旧知の仲のレーサー</td>	<td>&clubs; ベアトリス・ケイフォード</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『TNX』P84）</td>	<td>イヌ／ケルビムの捜査官</td>	<td>&diams; スキュラ</td></tr>
+	<tr><td>③クグツ</td>	<td>企業戦士（『TNX』P86）</td>	<td>クグツ／スポンサーの企業工作員</td>	<td>&diams; ネイサン・グリーンウェル</td></tr>
+	<tr><td>④カゼ</td>	<td>災厄のカゼ（『HDB』P165）</td>	<td>カゼ／『①カゼ』と同じチームのレーサー</td>	<td>&spades; 『①カゼ』</td></tr>
+	<tr><td>⑤タタラ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／チームのメカニック、サポーター</td>	<td>&spades; 『④カゼ』</td></tr>
+
+X	SSSX07	2	マシンハート・ストーリー
+	<tr><td>①クロガネ</td>	<td></td>	<td>〈フォルム：ヒューマン〉／</td>	<td>&hearts; 光川（ひかりかわ）ルミ</td></tr>
+	<tr><td>②クロガネ</td>	<td></td>	<td>フォルム指定なし／</td>	<td>&spades; Dr.ダイナスト</td></tr>
+	<tr><td>③クロガネ</td>	<td></td>	<td>〈フォルム：ストラクチャ〉／</td>	<td>&spades; 光川（ひかりかわ）ルミ</td></tr>
+	<tr><td>④クロガネ</td>	<td></td>	<td>フォルム指定なし／</td>	<td>&hearts; 『①クロガネ』</td></tr>
+	<tr><td>⑤クロガネ</td>	<td></td>	<td>フォルム指定なし／</td>	<td>&hearts; 光川（ひかりかわ）ルミ</td></tr>
+
+X	SSSX07	3	新鋭艦わだつみ応答せず
+	<tr><td>①アラシ</td>	<td></td>	<td>アラシ／わだつみ艦上機隊所属のパイロット</td>	<td>&spades; “鋼鉄の狼（アイアンウルフ）”宇留嶋凱（うるしま・がい）</td></tr>
+	<tr><td>②クグツ</td>	<td></td>	<td>クグツ／企業の潜入工作員</td>	<td>&diams; 千早雅之</td></tr>
+	<tr><td>③カブトワリ</td>	<td></td>	<td>指定なし／わだつみ上陸部隊所属の兵士</td>	<td>&diams; 遠鷲見史郎（とおすみ・しろう）</td></tr>
+	<tr><td>④ニューロ</td>	<td></td>	<td>ニューロ／わだつみオペレーター</td>	<td>&spades; わだつみAI</td></tr>
+	<tr><td>⑤カリスマ</td>	<td></td>	<td>指定なし／わだつみに視察に来た政治家、重役</td>	<td>&diams; 遠鷲見史郎（とおすみ・しろう）</td></tr>
+
+X	SSSX08	1	キャシーのN◎VAな一日
+	<tr><td>①ヒルコ</td>	<td>内なる怪物（『TOS』P52）</td>	<td>ヒルコ／ヒルコ街の自警団</td>	<td>&spades; キャシー</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／フリーランス</td>	<td>&diams; シドニー・ユウ</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド隊員</td>	<td>&spades; “キッズグループ”</td></tr>
+	<tr><td>④レッガー</td>	<td>任侠戦士（『HDB』P167）</td>	<td>レッガー／日系ヤクザ</td>	<td>&clubs; 風生闘虎（ふうせい・とうこ）</td></tr>
+	<tr><td>⑤トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>指定なし／キャシーの友人、連れ</td>	<td>&clubs; キャシー</td></tr>
+
+X	SSSX08	2	Back in Black
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／N.I.K.所属の探偵。香澄誠の友人</td>	<td>&diams; 香澄愛華（かすみ・あいか）</td></tr>
+	<tr><td>②カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／フリーランスの荒事屋</td>	<td>&spades; ブラックリッパー</td></tr>
+	<tr><td>③クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工後方処理課第三班の工作員</td>	<td>&diams; ドクター・ラチェット</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／『②カタナ』の相棒</td>	<td>&diams; 『②カタナ』</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>指定なし／5年前にブラックリッパーに同僚を殺されている</td>	<td>&diams; ブラックリッパー</td></tr>
+
+X	SSSX08	3	龍爪恩讐奇伝　ドラゴンクロウ・ストーリー
+	<tr><td>①チャクラ</td>	<td></td>	<td>指定なし／リチャード・ロウの弟子、武術家</td>	<td>&hearts; リチャード・ロウ</td></tr>
+	<tr><td>②カタナ</td>	<td></td>	<td>指定なし／龍爪会の幹部“五爪”のひとり、暗殺者</td>	<td>&spades; “血落花（けつらくか）”アルティア</td></tr>
+	<tr><td>③ニューロ</td>	<td></td>	<td>指定なし／N◎VAの住人、街で偶然愛麗と知り合う</td>	<td>&clubs; 愛麗（アイリー）</td></tr>
+	<tr><td>④イヌ</td>	<td></td>	<td>イヌ／龍爪会を追う捜査官</td>	<td>&diams; メモリ</td></tr>
+	<tr><td>⑤カゲ</td>	<td></td>	<td>指定なし／組織の暗殺者、工作員など</td>	<td>&spades; 服部半蔵</td></tr>
+
+X	SSSX09	1	墜落天使症候群（フォールンスター・シンドローム）
+	<tr><td>①フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／N◎VAに事務所を持つ探偵</td>	<td>&clubs; アクセラ</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課の捜査官</td>	<td>&spades; “白の”ジョエル</td></tr>
+	<tr><td>③ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>ニューロ／ハッカー</td>	<td>&clubs; 記憶の中の少女</td></tr>
+	<tr><td>④カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／『③ニューロ』を助けるフリーランス、相棒</td>	<td>&spades; 『③ニューロ』</td></tr>
+	<tr><td>⑤バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>指定なし／アメリアから依頼されるフリーランス</td>	<td>&spades; アメリア・アインスブルク</td></tr>
+
+X	SSSX09	2	奇跡のための連続殺人
+	<tr><td>①フェイト</td>	<td></td>	<td>／アクセラの依頼を受けた探偵</td>	<td>&clubs; アクセラ</td></tr>
+	<tr><td>②イヌ</td>	<td></td>	<td>／ブラックハウンド機動捜査課の捜査官</td>	<td>&spades; “白の”ジョエル</td></tr>
+	<tr><td>③ニューロ</td>	<td></td>	<td>／ハッカー</td>	<td>&clubs; アクセラ</td></tr>
+	<tr><td>④カタナ</td>	<td></td>	<td>／『③ニューロ』を助けるフリーランス、相棒</td>	<td>&spades; 『③ニューロ』</td></tr>
+	<tr><td>⑤バサラ</td>	<td></td>	<td>／フリーランス</td>	<td>&spades; アクセラ</td></tr>
+
+X	SSSX09	3	奇跡のための連続殺人
+	<tr><td>①フェイト</td>	<td></td>	<td>／アクセラと暮らす探偵</td>	<td>&clubs; アクセラ</td></tr>
+	<tr><td>②イヌ</td>	<td></td>	<td>／ブラックハウンド機動捜査課の捜査官</td>	<td>&spades; “白の”ジョエル</td></tr>
+	<tr><td>③ニューロ</td>	<td></td>	<td>／ハッカー</td>	<td>&diams; 安城珠美（あんじょう・たまみ）</td></tr>
+	<tr><td>④カタナ</td>	<td></td>	<td>／『③ニューロ』を助けるフリーランス、相棒</td>	<td>&spades; 『③ニューロ』</td></tr>
+	<tr><td>⑤バサラ</td>	<td></td>	<td>／フリーランス</td>	<td>&spades; アクセラ</td></tr>
+
+X	SSSX10	1	FIRE STALKER
+	<tr><td>①イブキ</td>	<td>ライフセイバー（『ATS』P36）</td>	<td>イブキ／シルバーレスキューの隊員</td>	<td>&clubs; 沙桐（さぎり）ミサ</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; 『①イブキ』</td></tr>
+	<tr><td>③ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>ニューロ／ハッカー。カズホの友人</td>	<td>&clubs; カズホ</td></tr>
+	<tr><td>④カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／フリーの荒事屋</td>	<td>&spades; “ファイアストーカー”</td></tr>
+	<tr><td>⑤トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／フリーの記者</td>	<td>&diams; “ファイアストーカー”</td></tr>
+
+X	SSSX10	2	World Savers Go!!
+	<tr><td>①イブキ</td>	<td></td>	<td>指定なし／ワールドセイバーズ。人命救助担当</td>	<td>&spades; バージル・ストロード</td></tr>
+	<tr><td>②カゼ</td>	<td></td>	<td>指定なし／ワールドセイバーズ。救助マシン操縦担当</td>	<td>&spades; バージル・ストロード</td></tr>
+	<tr><td>③カタナ</td>	<td></td>	<td>指定なし／ワールドセイバーズ。潜入戦闘担当</td>	<td>&spades; バージル・ストロード</td></tr>
+	<tr><td>④ニューロ</td>	<td></td>	<td>指定なし／ワールドセイバーズ。オペレーション担当</td>	<td>&spades; バージル・ストロード</td></tr>
+	<tr><td>⑤コモン</td>	<td></td>	<td>指定なし／ワールドセイバーズ。バージルの秘書として同行</td>	<td>&spades; バージル・ストロード</td></tr>
+
+X	SSSX10	3	アタック・オブ・ザ・ニューロゾンビ
+	<tr><td>①イブキ</td>	<td>ライフセイバー（『ATS』P36）</td>	<td>指定なし／指定なし</td>	<td>&spades; 要救助者たち</td></tr>
+	<tr><td>②コモン</td>	<td>一般人（『ATS』P40）</td>	<td>指定なし／指定なし</td>	<td>&clubs; ヨシコ・フィッシャー</td></tr>
+	<tr><td>③カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／指定なし</td>	<td>&clubs; うごめく屍者</td></tr>
+	<tr><td>④カゼ</td>	<td>災厄のカゼ（『HDB』P165）</td>	<td>指定なし／指定なし</td>	<td>&clubs; うごめく屍者</td></tr>
+	<tr><td>⑤バサラ</td>	<td>ニューロエイジの魔術師（『HDB』P169）</td>	<td>指定なし／指定なし</td>	<td>&clubs; うごめく屍者</td></tr>
+
+X	SSSX11	1	新たなる契約者
+	<tr><td>①シキガミ</td>	<td>式神使い（『ATS』P42）</td>	<td>シキガミ／退魔師。命を失い、玉麟と契約したシキガミ</td>	<td>&hearts; 玉麟（ぎょくりん）</td></tr>
+	<tr><td>②アヤカシ</td>	<td>鋼の人狼（『TOS』P50）</td>	<td>アヤカシ／サロン・ドルファンの狩人</td>	<td>&diams; 蛇狼丸（じゃろうまる）</td></tr>
+	<tr><td>③バサラ</td>	<td>炎の退魔師（『TOS』P48）</td>	<td>指定なし／聖母殿のエージェント</td>	<td>&spades; アシュリー・レン</td></tr>
+	<tr><td>④マヤカシ</td>	<td>ニューロエイジの魔術師（『HDB』P169）</td>	<td>指定なし／フリーランス。占いじじいの弟子</td>	<td>&spades; ヴァンドルフ・ガーレン</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／荒事屋。聖母殿の協力者</td>	<td>&diams; アメリア・アインスブルク</td></tr>
+
+X	SSSX11	2	呪われたマンション（シナリオフック）
+	<tr><td>①シキガミ</td>	<td></td>	<td>／</td>	<td>&spades; 有原ヒロヤ</td></tr>
+	<tr><td>②アヤカシ</td>	<td></td>	<td>／</td>	<td>&diams; ヒトガタ</td></tr>
+	<tr><td>③バサラ</td>	<td></td>	<td>／</td>	<td>&hearts; 玉麟（ぎょくりん）</td></tr>
+	<tr><td>④マヤカシ</td>	<td></td>	<td>／</td>	<td>&diams; “ビッグ・マム”マリー</td></tr>
+	<tr><td>⑤カタナ</td>	<td></td>	<td>／</td>	<td>&diams; 『③バサラ』</td></tr>
+
+X	SSSX11	3	魔宴の果てに
+	<tr><td>①シキガミ</td>	<td></td>	<td>シキガミ／玉麟の使い手である退魔師</td>	<td>&hearts; 玉麟</td></tr>
+	<tr><td>②アヤカシ</td>	<td></td>	<td>アヤカシ／サロン・ドルファンのアヤカシ</td>	<td>&diams; 『①シキガミ』</td></tr>
+	<tr><td>③バサラ</td>	<td></td>	<td>指定なし／聖母殿のエージェント</td>	<td>&spades; アシュリー・レン</td></tr>
+	<tr><td>④マヤカシ</td>	<td></td>	<td>指定なし／ヴァンドルフと同門の魔術師</td>	<td>&spades; ヴァンドルフ・ガーレン</td></tr>
+	<tr><td>⑤カタナ</td>	<td></td>	<td>指定なし／聖母殿の協力者</td>	<td>&spades; 『③バサラ』</td></tr>
+
+X	SSSX11	4	慟哭の夜（シナリオフック）
+	<tr><td>①シキガミ</td>	<td></td>	<td>／</td>	<td>&hearts; 玉麟</td></tr>
+	<tr><td>②アヤカシ</td>	<td></td>	<td>／</td>	<td>&diams; 蛇狼丸（じゃろうまる）</td></tr>
+	<tr><td>③バサラ</td>	<td></td>	<td>／</td>	<td>&spades; アシュリー・レン</td></tr>
+	<tr><td>④マヤカシ</td>	<td></td>	<td>／</td>	<td>&diams; 龍印姫子（りゅういん・ひめこ）</td></tr>
+	<tr><td>⑤カタナ</td>	<td></td>	<td>／</td>	<td>&diams; 『③バサラ』</td></tr>
+
+X	SSSX11	5	魔神咆哮
+	<tr><td>①シキガミ</td>	<td></td>	<td>シキガミ／神魔楔械玉麟の契約者</td>	<td>&hearts; 玉麟</td></tr>
+	<tr><td>②アヤカシ</td>	<td></td>	<td>アヤカシ／サロン・ドルファンの狩人</td>	<td>&diams; アルドラ・ドルファン</td></tr>
+	<tr><td>③バサラ</td>	<td></td>	<td>指定なし／聖母殿のエージェント</td>	<td>&diams; アシュリー・レン</td></tr>
+	<tr><td>④マヤカシ</td>	<td></td>	<td>指定なし／ヴァンドルフ・ガーレンの同門</td>	<td>&spades; ヴァンドルフ・ガーレン</td></tr>
+	<tr><td>⑤カタナ</td>	<td></td>	<td>指定なし／聖母殿の協力者</td>	<td>&diams; 『③バサラ』</td></tr>
+
+X	SSSX11	6	魔神殺し（シナリオフック）
+	<tr><td>①シキガミ</td>	<td></td>	<td>／</td>	<td>&diams; 盤古</td></tr>
+	<tr><td>②アヤカシ</td>	<td></td>	<td>／</td>	<td>&diams; 盤古</td></tr>
+	<tr><td>③バサラ</td>	<td></td>	<td>／</td>	<td>&diams; 盤古</td></tr>
+	<tr><td>④マヤカシ</td>	<td></td>	<td>／</td>	<td>&diams; 盤古</td></tr>
+	<tr><td>⑤カタナ</td>	<td></td>	<td>／</td>	<td>&diams; 盤古</td></tr>
+
+X	SSSX12	1	遙か星の彼方へ
+	<tr><td>①タタラ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>タタラ／亜空間方程式を解いた科学者</td>	<td>&spades; クリル</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&diams; 千早雅之</td></tr>
+	<tr><td>③カタナ</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／フリーランス</td>	<td>&diams; バドーガ</td></tr>
+	<tr><td>④イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; レイ</td></tr>
+	<tr><td>⑤カブトワリ</td>	<td>災厄のカゼ（『HDB』P165）</td>	<td>指定なし／フリーランス。アメリア・アインスブルクの依頼を受ける</td>	<td>&diams; クリル</td></tr>
+
+X	SSSX12	2	タイムポリス
+	<tr><td>①エトランゼ</td>	<td>宇宙人（『ATS』P44）</td>	<td>エトランゼ／時空警察の捜査官</td>	<td>&diams; エリオット・ブレイン</td></tr>
+	<tr><td>②タタラ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／科学者 or 学生</td>	<td>&clubs; 永久野（とわの）ミソノ</td></tr>
+	<tr><td>③イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課</td>	<td>&diams; エリオット・ブレイン</td></tr>
+	<tr><td>④フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>指定なし／フリーランス</td>	<td>&spades; アメリア・アインスブルク</td></tr>
+	<tr><td>⑤カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>カブト／ボディガード</td>	<td>&diams; 沢渡（さわたり）トキオ</td></tr>
+
+X	SSSX12	3	エトランゼバース
+	<tr><td>①エトランゼ</td>	<td></td>	<td>〈フロム：パラレルワールド〉／パラレルワールドからやってきたゲーマー</td>	<td>&spades; 緑の女神</td></tr>
+	<tr><td>②エトランゼ</td>	<td></td>	<td>〈フロム：アウタースペース〉／N◎VAに来た宇宙人</td>	<td>&spades; 緑の女神</td></tr>
+	<tr><td>③エトランゼ</td>	<td></td>	<td>〈フロム：フューチャー〉／未来から来た未来人</td>	<td>&spades; 緑の女神</td></tr>
+	<tr><td>④エトランゼ</td>	<td></td>	<td>〈フロム：シバルリー or ソーサリー〉／ファンタジー世界の住民</td>	<td>&spades; 緑の女神</td></tr>
+	<tr><td>⑤エトランゼ</td>	<td></td>	<td>〈フロム：パースト〉／過去から来た異邦人</td>	<td>&spades; 緑の女神</td></tr>
+
+X	SSSX13	1	運命交差点
+	<tr><td>①コモン</td>	<td>一般人（『ATS』P40）</td>	<td>コモン／通りすがりの一般人</td>	<td>&diams; 交差点の男</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工後方処理課第三班所属</td>	<td>&diams; 佐間原謙邑（さまはら・けんゆう）</td></tr>
+	<tr><td>③カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>指定なし／ボディガード</td>	<td>&spades; 『①コモン』</td></tr>
+	<tr><td>④トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／事件を取材するジャーナリスト</td>	<td>&diams; 告発者</td></tr>
+	<tr><td>⑤イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド機動捜査課の捜査員</td>	<td>&diams; レイ</td></tr>
+
+X	SSSX13	2	激闘!!　ニューロサッカー
+	<tr><td>①コモン</td>	<td>一般人（『ATS』P40）</td>	<td>指定なし／新星スターズ所属</td>	<td>&spades; 松岡マモル</td></tr>
+	<tr><td>②カブト</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／松岡マモルから新星スターズを託される</td>	<td>&spades; 松岡マモル</td></tr>
+	<tr><td>③クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>指定なし／千早グループ所属</td>	<td>&diams; 千早雅之</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／新星スターズ所属</td>	<td>&clubs; 『①コモン』</td></tr>
+	<tr><td>⑤ハイランダー</td>	<td>地上の天使（『BTD』P59）</td>	<td>指定なし／御館ナイトと因縁を持つ</td>	<td>&spades; 御館（みたて）ナイト</td></tr>
+
+X	SSSX13	3	命がけの娯楽（ライフ・イズ・ゲーム）
+	<tr><td>①コモン</td>	<td>一般人（『ATS』P40）</td>	<td>コモン／一般人</td>	<td>&clubs; ステュアート・ビーンウェル</td></tr>
+	<tr><td>②カブト</td>	<td>現代の騎士（『HDB』P162）</td>	<td>カブト／フリーランス</td>	<td>&spades; ステュアート・ビーンウェル</td></tr>
+
+X	SSSX14	1	アイドル北へ行く
+	<tr><td>①トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／アイドルを密着取材する記者</td>	<td>&clubs; 結城あや</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士（『HDB』P162）</td>	<td>クグツ／千早重工カムイST☆R支社所属</td>	<td>&diams; メルトダウン</td></tr>
+	<tr><td>③その他</td>	<td>ボディガード（『BTD』P57）</td>	<td>指定なし／アイドルの護衛を依頼される</td>	<td>&diams; 結城あや</td></tr>
+	<tr><td>④その他</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／アイドルの護衛を依頼される</td>	<td>&diams; 結城あや</td></tr>
+	<tr><td>⑤その他</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／アイドルの護衛を依頼される</td>	<td>&diams; 結城あや</td></tr>
+
+X	SSSX14	2	13mmの死神
+	<tr><td>①トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／アイドルに取材する記者</td>	<td>&clubs; 結城あや</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>イヌ／ブラックハウンド隊員</td>	<td>&spades; 稲垣光平</td></tr>
+	<tr><td>③その他</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／ストリートの腕利き</td>	<td>&diams; “レティクル座人”ゾヲン</td></tr>
+	<tr><td>④その他</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／ストリートの腕利き</td>	<td>&diams; “レティクル座人”ゾヲン</td></tr>
+	<tr><td>⑤その他</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>指定なし／ストリートの腕利き</td>	<td>&diams; “レティクル座人”ゾヲン</td></tr>
+
+X	SSSX14	3	ラストステージ
+	<tr><td>①トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／記者。1099便ファーストクラス乗客</td>	<td>&diams; 結城あや</td></tr>
+	<tr><td>②イヌ</td>	<td>正義の猟犬（『HDB』P161）</td>	<td>指定なし／1099便乗客（注：コネはエコノミー選択時のもの）</td>	<td>&spades; ジョー</td></tr>
+	<tr><td>③フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>指定なし／1099便乗客（注：コネはエコノミー選択時のもの）</td>	<td>&spades; ジョー</td></tr>
+	<tr><td>④ニューロ</td>	<td>ニューロキッズ（『HDB』P168）</td>	<td>指定なし／1099便乗客（注：コネはコンテナ選択時のもの）</td>	<td>&diams; セロ</td></tr>
+	<tr><td>⑤カブト</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／1099便乗客（注：コネはコンテナ選択時のもの）</td>	<td>&diams; セロ</td></tr>
+
+X	SSSX14	4	Sound of Silence Untold Story
+	<tr><td>①トーキー</td>	<td>遊撃記者（『HDB』P163）</td>	<td>トーキー／チャンネル99の依頼を受けるジャーナリスト</td>	<td>&spades; 結城あや</td></tr>
+	<tr><td>②エグゼク</td>	<td>天才経営者（『NAN』P16）</td>	<td>指定なし／若き成功者</td>	<td>&diams; ブラックマン</td></tr>
+	<tr><td>③フェイト</td>	<td>不屈の探偵（『HDB』P160）</td>	<td>フェイト／ジャーナリストの死を調査する探偵</td>	<td>&diams; ホワイトマン</td></tr>
+	<tr><td>④カブト</td>	<td>現代の騎士（『HDB』P162）</td>	<td>指定なし／アメリア・アインスブルクの依頼を受ける荒事屋</td>	<td>&clubs; 『②エグゼク』</td></tr>
+	<tr><td>⑤カブト</td>	<td>ボディガード（『BTD』P57）</td>	<td>指定なし／ボディガード</td>	<td>&diams; 結城あや</td></tr>
+
+X	MSC01	1	冬寂の娘
+	<tr><td>①カブト</td>	<td>現代の騎士</td>	<td>カブト／ボディガード</td>	<td>&clubs; スー</td></tr>
+	<tr><td>②フェイト</td>	<td>不屈の探偵</td>	<td>フェイト／探偵</td>	<td>&spades; シュリンカー</td></tr>
+	<tr><td>③クグツ</td>	<td>企業戦士</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&diams; 小上紫乃</td></tr>
+	<tr><td>④レッガー</td>	<td>任侠戦士</td>	<td>指定なし／河渡連合から依頼を受ける</td>	<td>&hearts; 河渡白夜</td></tr>
+	<tr><td>⑤トーキー</td>	<td>遊撃記者</td>	<td>トーキー／フリーのジャーナリスト</td>	<td>&diams; 消えた女</td></tr>
+
+X	MSC01	2	白い手
+	<tr><td>①バサラ</td>	<td>エクソシスト</td>	<td>バサラ or マヤカシ／退魔師</td>	<td>&spades; “ビッグ・マム”マリー</td></tr>
+	<tr><td>②レッガー</td>	<td>任侠戦士</td>	<td>指定なし／河渡白夜から依頼を受ける</td>	<td>&hearts; 河渡白夜</td></tr>
+	<tr><td>③トーキー</td>	<td>遊撃記者</td>	<td>指定なし／幽霊小路を通りかかる</td>	<td>&clubs; 白い手</td></tr>
+	<tr><td>④マヤカシ</td>	<td>ニューロエイジの魔術師</td>	<td>指定なし／『①バサラ』～『③トーキー』のバディ</td>	<td>同左</td>	<td>『①バサラ』～『③トーキー』と同じ</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士</td>	<td>指定なし／『①バサラ』～『③トーキー』のバディ</td>	<td>同左</td>	<td>『①バサラ』～『③トーキー』と同じ</td></tr>
+
+X	MSC01	3	HOWL FROM BEYOND
+	<tr><td>①バサラ</td>	<td>エクソシスト</td>	<td>バサラ or マヤカシ／聖母殿の退魔師</td>	<td>&clubs; 彼方からの声</td></tr>
+	<tr><td>②クグツ</td>	<td>企業戦士</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&spades; 千早雅之</td></tr>
+	<tr><td>③フェイト</td>	<td>不屈の探偵</td>	<td>指定なし／芳華玲の頼まれ事を引き受ける</td>	<td>&spades; “癒し手”芳華玲</td></tr>
+	<tr><td>④マヤカシ</td>	<td>ニューロエイジの魔術師</td>	<td>指定なし／御門忍から頼まれる</td>	<td>&clubs; 御門忍</td></tr>
+	<tr><td>⑤カタナ</td>	<td>現代の騎士</td>	<td>指定なし／賞金稼ぎ</td>	<td>&diams; “狼王”エリス</td></tr>
+
+X	MSC01	4	Promised Land
+	<tr><td>①バサラ</td>	<td>エクソシスト</td>	<td>バサラ or マヤカシ／聖母殿の退魔師</td>	<td>&spades; アンドレア・ガーフ</td></tr>
+	<tr><td>②アヤカシ</td>	<td>鋼の人狼</td>	<td>アヤカシ／サロン・ドルファンの狩人</td>	<td>&diams; アルドラ・ドルファン</td></tr>
+	<tr><td>③フェイト</td>	<td>不屈の探偵</td>	<td>指定なし／ロージーの知り合い、友人</td>	<td>&clubs; ロージー</td></tr>
+	<tr><td>④クグツ</td>	<td>企業戦士</td>	<td>クグツ／千早重工後方処理課第三班</td>	<td>&diams; 小上紫乃</td></tr>
+	<tr><td>⑤トーキー</td>	<td>遊撃記者</td>	<td>トーキー／フリーランスの記者</td>	<td>&diams; 九条政次</td></tr>

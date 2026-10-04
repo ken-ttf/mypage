@@ -33,7 +33,8 @@ h1 {
 	padding:          0.5em;
 	color:            inherit;
 	background-color: inherit;
-	font-size:        140%;
+/*	font-size:        140%;	*/
+	font-size:        200%;
 	line-height:      100%;
 	text-align:       left;
 	font-weight:      bold;
@@ -45,7 +46,8 @@ h2 {
 	color:            #FFF;
 	background-color: #666;
 	border:           0.2em solid #000;
-	font-size:        120%;
+/*	font-size:        120%;	*/
+	font-size:        160%;
 	font-weight:      bold;
 }
 
@@ -55,16 +57,20 @@ h3 {
 	color:            #000;
 	background-color: #CCC;
 	border-left:      0.5em solid #000;
-	font-size:        100%;
+/*	font-size:        100%;	*/
+	font-size:        140%;
 	font-weight:      bold;
 }
 
 h4 {
 	margin:           1.3em 0 0 0.25em;
 	padding:          0.2em 1.2em;
-	color:            #FFF;
-	background-color: #999;
-	font-size:        100%;
+/*	color:            #FFF;
+	background-color: #999;	*/
+	color:            #222;
+	background-color: #EEE;
+/*	font-size:        100%;	*/
+	font-size:        120%;
 /*	font-weight:      normal;	*/
 	font-weight:      bold;
 }
@@ -391,40 +397,39 @@ input {
    ------------------------------------------------------------------ */
 
 /* ---------- Header Footer ---------- */
-div.head, div.foot {
+header, footer {
 	font-size:   90%;
 	line-height: 120%;
 }
 
-div.head {
+header {
 	color:      #FFF;
 	background: #000;
 	margin:     0 -1em 1.5em;
 	padding:    0 0.5em;
 }
 
-div.foot {
+footer {
 	color:         #000;
 	background:    transparent;
 	margin:        2em -0.5em 0;
 	padding:       0.5em;
 	border-top:    thin solid #666;
-/*	border-bottom: thin solid #666;	*/
 }
 
-div.head ul {
+header ul {
 	margin:     0;
 	text-align: right;
 }
 
-div.head li {
+header li {
 	margin:           0 0.2em 0 0;
 	padding:          0;
 	background-color: Transparent;
 	display:          inline;
 }
 
-div.head li:before {
+header li:before {
 	margin:           0 0.5em 0 0;
 	padding:          0;
 	background-color: Transparent;
@@ -432,13 +437,13 @@ div.head li:before {
 	content:          "/";
 }
 
-div.head a {
+header a {
 	color:            #FFF;
 	background-color: Transparent;
 	text-decoration:  underline;
 }
 
-div.head a:visited {
+header a:visited {
 	color:            #CCF;
 	background-color: Transparent;
 	text-decoration:  underline;
@@ -469,8 +474,8 @@ ol.dl_in dt { white-space: nowrap; margin: 0; }
 ol.dl_in dd { white-space: nowrap; margin: 0 0 0 0.3em; }
 
 
-/* ---------- Div ---------- */
-div.navi {
+/* ---------- nav ---------- */
+nav {
 /*	font-size: smaller;	*/
 	line-height: 110%;
 	border: medium inset #99C;
@@ -479,7 +484,7 @@ div.navi {
 	padding: 0 0.3em 0.2em;
 }
 
-div.navi h2 {
+nav h2 {
 	border: none;
 	background-color: transparent;
 	margin: 0.7em 0 0em 0.2em;
@@ -491,21 +496,21 @@ div.navi h2 {
 	font-size: 90%;
 }
 
-div.navi dt {
+nav dt {
 	margin-left:  1em;
 	margin-right: 1em;
 }
 
-div.navi dd {
+nav dd {
 	margin-bottom: 0.4em;
 }
 
-div.navi ul.dl_in dt {
+nav ul.dl_in dt {
 	margin-left:  0;
 	margin-right: 0;
 }
 
-div.navi p {
+nav p {
 	margin-top:    0.5em;
 	margin-bottom: 0.5em;
 	margin-left:   0.5em;
@@ -513,13 +518,14 @@ div.navi p {
 	line-height:   130%;
 }
 
-div.navi table {
+nav table {
 	margin:    1em;
 	padding:   0em;
 	border:    thin solid #999;
 	font-size: 95%;
 }
 
+/* ---------- Div ---------- */
 div.ep {
 	margin:           1em 0.5em 1.3em;
 	padding:          0.3em 1em;
@@ -592,5 +598,14 @@ body.top {
 dd ul, dd ol {
 	margin:  0.2em 0;
 	padding: 0;
+}
+
+summary {
+	margin:           1.3em 0 0 0.75em;
+	padding:          0.2em 0.5em;
+	color:            #222;
+	background-color: #EEE;
+	font-size:        120%;
+	font-weight:      bold;
 }
 

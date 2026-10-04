@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta name="author"      content="ＫＥＮ">
+<meta name="copyright"   content="Copyright &copy; 2026 KEN">
+<link rel="stylesheet" href="default.css">
+<title>TITLE</title>
+</head>
+
+<body>
+
+<!-- ■Header -->
+<header>
+<h1>見出し1</h1>
+<script src="https://ken-ttf.github.io/mypage/old/script/lastupdate.js"></script>
+<noscript><div class="lastupdate">Last Update : 0000/00/00</div></noscript>
+</header>
+
+<!-- ■Navigation -->
+<nav>
+</nav>
+
+<!-- ■Main -->
+<main>
+
+  <!-- コントロールボタン群（data-target属性に対象のCSSセレクタを指定） -->
+  <div class="controls">
+    <button data-target="details">1. すべて</button>
+    <button data-target="#sec01 details">2. sec01 全体</button>
+    <button data-target="#sec02 details">3. sec02 全体</button>
+    <button data-target="#sec03 details">4. sec03 全体</button>
+    <button data-target="#art01-01 details">5. art01-01</button>
+    <button data-target="#art01-02 details">6. art01-02</button>
+    <button data-target="#art02-01 details">7. art02-01</button>
+    <button data-target="#art02-02 details">8. art02-02</button>
+    <button data-target="#art03-01 details">9. art03-01</button>
+    <button data-target="#art03-02 details">10. art03-02</button>
+    <button data-target="details.det01">11. すべての det01</button>
+    <button data-target="details.det02">12. すべての det02</button>
+    <button data-target="details.det03">13. すべての det03</button>
+  </div>
+
+  <!-- HTML構造 -->
+  <section id="sec01">
+    <h3>Section 01</h3>
+    <article id="art01-01">
+      <details class="det01"><summary>sec01 > art01-01 > det01</summary>コンテンツ</details>
+      <details class="det02"><summary>sec01 > art01-01 > det02</summary>コンテンツ</details>
+      <details class="det03"><summary>sec01 > art01-01 > det03</summary>コンテンツ</details>
+    </article>
+    <article id="art01-02">
+      <details class="det01"><summary>sec01 > art01-02 > det01</summary>コンテンツ</details>
+      <details class="det02"><summary>sec01 > art01-02 > det02</summary>コンテンツ</details>
+      <details class="det03"><summary>sec01 > art01-02 > det03</summary>コンテンツ</details>
+    </article>
+  </section>
+
+  <section id="sec02">
+    <h3>Section 02</h3>
+    <article id="art02-01">
+      <details class="det01"><summary>sec02 > art02-01 > det01</summary>コンテンツ</details>
+      <details class="det02"><summary>sec02 > art02-01 > det02</summary>コンテンツ</details>
+      <details class="det03"><summary>sec02 > art02-01 > det03</summary>コンテンツ</details>
+    </article>
+    <article id="art02-02">
+      <details class="det01"><summary>sec02 > art02-02 > det01</summary>コンテンツ</details>
+      <details class="det02"><summary>sec02 > art02-02 > det02</summary>コンテンツ</details>
+      <details class="det03"><summary>sec02 > art02-02 > det03</summary>コンテンツ</details>
+    </article>
+  </section>
+
+  <section id="sec03">
+    <h3>Section 03</h3>
+    <article id="art03-01">
+      <details class="det01"><summary>sec03 > art03-01 > det01</summary>コンテンツ</details>
+      <details class="det02"><summary>sec03 > art03-01 > det02</summary>コンテンツ</details>
+      <details class="det03"><summary>sec03 > art03-01 > det03</summary>コンテンツ</details>
+    </article>
+    <article id="art03-02">
+      <details class="det01"><summary>sec03 > art03-02 > det01</summary>コンテンツ</details>
+      <details class="det02"><summary>sec03 > art03-02 > det02</summary>コンテンツ</details>
+      <details class="det03"><summary>sec03 > art03-02 > det03</summary>コンテンツ</details>
+    </article>
+  </section>
+
+  <script>
+    // data-target属性を持つすべてのボタンを取得
+    const buttons = document.querySelectorAll('button[data-target]');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        // ボタンに設定されたCSSセレクタを取得
+        const selector = e.target.getAttribute('data-target');
+        // セレクタに合致するdetails要素をすべて取得
+        const detailsList = document.querySelectorAll(selector);
+        
+        if (detailsList.length === 0) return;
+
+        // 対象グループの中に1つでも「開いている(open)」ものがあるか判定
+        const isAnyOpen = Array.from(detailsList).some(details => details.open);
+
+        // 開いているものが1つでもあれば全て閉じる、全て閉じていれば全て開く
+        detailsList.forEach(details => {
+          details.open = !isAnyOpen;
+        });
+      });
+    });
+  </script>
+
+</main>
+
+<!-- ■Footer -->
+<footer>
+<div class="valid">
+<script src="./script/validator.js"></script>
+<noscript>
+<p><a href="http://validator.w3.org/check?uri=https://ken-ttf.github.io/mypage/">Nu Html Checker</a></p>
+<p><a href="http://jigsaw.w3.org/css-validator/validator?uri=https://ken-ttf.github.io/mypage/"><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" width="88" height="31"></a></p>
+</noscript>
+</div>
+<address></address>
+</footer>
+
+</body>
+
+</html>
