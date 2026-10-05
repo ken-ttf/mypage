@@ -1,0 +1,49 @@
+<section id="TNX">
+<h2>トーキョーN◎VA THE AXLERATION</h2>
+
+</section>
+
+
+
+
+
+<article id="XXXXXX">
+<h3>シナリオ1：Sound of Silence</h3>
+<div class="controls">
+<button data-target="#XXXXXX details">すべて開く/閉じる</button>
+</div>
+
+</article>
+
+
+
+
+
+<!-- Act Trailers -->
+<details class="ACTTRAILERS">
+<summary>アクトトレーラー</summary>
+<div style="margin-left: 2em;">
+<p>（作業中）</p>
+</div>
+</details>
+<!-- Character Making -->
+<details class="CHARACTERMAKING">
+<summary>キャラクター作成</summary>
+<div style="margin-left: 1em;">
+<table>
+<thead>
+	<tr><th>推奨スタイル</th>	<th>クイックスタート</th>	<th>コンストラクション</th>	<th>コネ</th></tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+</details>
+<!-- Regulations -->
+<details class="REGULATIONS">
+<summary>レギュレーション</summary>
+<div style="margin-left: 2em;">
+<dl>
+</dl>
+</div>
+</details>
