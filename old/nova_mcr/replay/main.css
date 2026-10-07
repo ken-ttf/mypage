@@ -1,0 +1,59 @@
+body {
+	background:   #CCC;
+	width:        90%;
+	margin-left:  4%;
+}
+
+h1 {
+	font-size: 24pt;
+}
+
+h2 {
+	font-size:  16pt;
+	color:      #FFF;
+	background: #000;
+	margin:     2em 0em 0em;
+	padding:    0.2em 1em;;
+}
+
+h3 {
+	border-bottom:  solid thin #CCC;
+	padding-top:    0.5em;
+}
+
+div {
+	color:      #000;
+	background: #FFF;
+	padding:    0em 1em;
+	border:     solid thin #000;
+}
+
+p {
+	font-size:   12pt;
+	line-height: 150%;
+}
+
+hr {
+	margin: 1em 0em;
+}
+
+li {
+	margin-bottom: 0.5em;
+}
+
+.small {
+	font-size: smaller;
+}
+
+.pre {
+	font-size:   14pt;
+	font-weight: bold;
+	background:  transparent;
+	text-align:  center;
+	border:      none;
+}
+
+.author {
+	text-align:  right;
+}
+
